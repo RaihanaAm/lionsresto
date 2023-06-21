@@ -10891,6 +10891,61 @@ nav button:hover {
   font-size: 12px;
 }
 
+.lionResto {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #eeeeee;
+}
+.lionResto .why {
+  background-color: #cd1210;
+  width: 400px;
+  padding: 20px;
+  color: white;
+}
+.lionResto .why h1, .lionResto .why .h1 {
+  font-size: 32px;
+}
+.lionResto .why p {
+  margin-top: 18px;
+  font-size: 14.5px;
+}
+.lionResto .why button {
+  border: none;
+  color: white;
+  background-color: #d1423f;
+  width: 120px;
+  height: 35px;
+  margin-left: 110px;
+  border-radius: 20px;
+  font-size: 16px;
+}
+.lionResto .why button:hover {
+  background-color: #be1411;
+}
+.lionResto .corporis {
+  background-color: #ffffff;
+  width: 250px;
+  height: 280px;
+  padding: 20px;
+}
+.lionResto .corporis h1, .lionResto .corporis .h1 {
+  font-size: 22px;
+}
+.lionResto .corporis p {
+  margin-top: 18px;
+  font-size: 12.5px;
+}
+.lionResto .corporis .icon {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+  background-color: rgba(205, 19, 16, 0.5568627451);
+}
+
 @media (min-width: 768px) and (max-width: 1024px) {
   .home {
     display: flex;
