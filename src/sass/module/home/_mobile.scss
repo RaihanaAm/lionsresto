@@ -53,9 +53,9 @@
             .Book {
                 .table {
                     top: 70%;
-                    left: 15%;
-                    width: 490px;
-                    padding: 15px;
+                    left: 12.5%;
+                    width: 290px;
+                    padding: 5px;
                     text-align: center;
 
                     h6 {
@@ -68,27 +68,31 @@
                 }
 
                 .image1 {
-                    width: 680px;
+                    width: 360px;
                     height: 550px;
                 }
             }
 
             .image2 {
-                width: 720px;
-                height: 465px;
+                width: 350px;
+                height: 355px;
             }
 
             .paraAbout {
-                margin: 15px 0 ;
-                font-size: 19px;
+                margin: 15px 23px ;
+                font-size: 14px;
                 .iconabout {
                     display: flex;
-
                     i {
                         margin: 5px 5px 0 0;
                         font-size: 14px;
                     }
                 }
+            }
+            .image2p{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
             }
 
         }
