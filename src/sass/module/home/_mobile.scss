@@ -32,5 +32,67 @@
             }
         }
     }
+// ************ about us
+    .aboutUs {
+        .about {
+            h6 {
+                font-size: 15px;
+            }
+
+            h5 {
+                font-size: 40px;
+
+            }
+        }
+
+        .about1 {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            .Book {
+                .table {
+                    top: 70%;
+                    left: 15%;
+                    width: 490px;
+                    padding: 15px;
+                    text-align: center;
+
+                    h6 {
+                        font-size: 20px;
+                    }
+
+                    h5 {
+                        font-size: 26px;
+                    }
+                }
+
+                .image1 {
+                    width: 680px;
+                    height: 550px;
+                }
+            }
+
+            .image2 {
+                width: 720px;
+                height: 465px;
+            }
+
+            .paraAbout {
+                margin: 15px 0 ;
+                font-size: 19px;
+                .iconabout {
+                    display: flex;
+
+                    i {
+                        margin: 5px 5px 0 0;
+                        font-size: 14px;
+                    }
+                }
+            }
+
+        }
+
+    }
 
 }

@@ -9,6 +9,10 @@
     font-family: "Amatic";
     src: url(../../../../public/fonts/AmaticSC-Bold.ttf);
 }
+@font-face {
+    font-family: "Amatic-reg";
+    src: url(../../../../public/fonts/AmaticSC-Regular.ttf);
+}
 
 ;
 
@@ -147,7 +151,7 @@ nav {
             color: #565658;
         }
         h5{
-            font-family: "amatic";
+            font-family:"Amatic-reg";
             font-size: 40px;
             color: #565658;
             span{

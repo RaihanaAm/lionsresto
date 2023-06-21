@@ -10728,6 +10728,10 @@ textarea.form-control-lg {
   font-family: "Amatic";
   src: url(../../../../public/fonts/AmaticSC-Bold.ttf);
 }
+@font-face {
+  font-family: "Amatic-reg";
+  src: url(../../../../public/fonts/AmaticSC-Regular.ttf);
+}
 nav .logo {
   font-size: 32px;
   font-weight: 500;
@@ -10835,7 +10839,7 @@ nav button:hover {
   color: #565658;
 }
 .aboutUs .about h5, .aboutUs .about .h5 {
-  font-family: "amatic";
+  font-family: "Amatic-reg";
   font-size: 40px;
   color: #565658;
 }
@@ -10910,6 +10914,49 @@ nav button:hover {
     align-items: center;
     justify-content: center;
   }
+  .aboutUs .about h6, .aboutUs .about .h6 {
+    font-size: 15px;
+  }
+  .aboutUs .about h5, .aboutUs .about .h5 {
+    font-size: 40px;
+  }
+  .aboutUs .about1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .aboutUs .about1 .Book .table {
+    top: 70%;
+    left: 15%;
+    width: 490px;
+    padding: 15px;
+    text-align: center;
+  }
+  .aboutUs .about1 .Book .table h6, .aboutUs .about1 .Book .table .h6 {
+    font-size: 20px;
+  }
+  .aboutUs .about1 .Book .table h5, .aboutUs .about1 .Book .table .h5 {
+    font-size: 26px;
+  }
+  .aboutUs .about1 .Book .image1 {
+    width: 680px;
+    height: 550px;
+  }
+  .aboutUs .about1 .image2 {
+    width: 720px;
+    height: 465px;
+  }
+  .aboutUs .about1 .paraAbout {
+    margin: 15px 0;
+    font-size: 19px;
+  }
+  .aboutUs .about1 .paraAbout .iconabout {
+    display: flex;
+  }
+  .aboutUs .about1 .paraAbout .iconabout i {
+    margin: 5px 5px 0 0;
+    font-size: 14px;
+  }
 }
 @media (min-width: 375px) and (max-width: 425px) {
   .home {
@@ -10937,6 +10984,49 @@ nav button:hover {
   }
   .home .video h6, .home .video .h6 {
     font-size: 16px;
+  }
+  .aboutUs .about h6, .aboutUs .about .h6 {
+    font-size: 15px;
+  }
+  .aboutUs .about h5, .aboutUs .about .h5 {
+    font-size: 40px;
+  }
+  .aboutUs .about1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .aboutUs .about1 .Book .table {
+    top: 70%;
+    left: 15%;
+    width: 490px;
+    padding: 15px;
+    text-align: center;
+  }
+  .aboutUs .about1 .Book .table h6, .aboutUs .about1 .Book .table .h6 {
+    font-size: 20px;
+  }
+  .aboutUs .about1 .Book .table h5, .aboutUs .about1 .Book .table .h5 {
+    font-size: 26px;
+  }
+  .aboutUs .about1 .Book .image1 {
+    width: 680px;
+    height: 550px;
+  }
+  .aboutUs .about1 .image2 {
+    width: 720px;
+    height: 465px;
+  }
+  .aboutUs .about1 .paraAbout {
+    margin: 15px 0;
+    font-size: 19px;
+  }
+  .aboutUs .about1 .paraAbout .iconabout {
+    display: flex;
+  }
+  .aboutUs .about1 .paraAbout .iconabout i {
+    margin: 5px 5px 0 0;
+    font-size: 14px;
   }
 }
 
