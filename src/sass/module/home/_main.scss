@@ -1,0 +1,65 @@
+@font-face {
+    font-family: "poppins";
+    src: url(../../../../public/fonts/Poppins-Regular.ttf);
+};
+
+nav {
+    .logo {
+        font-size: 32px;
+        font-weight: 500;
+
+        span {
+            color: #cd1210;
+        }
+    }
+
+    .lii {
+        font-size: 18px;
+        color: #101217 !important;
+        .active{
+            font-size: 20px;
+
+        }
+    }
+
+    .lii:hover {
+        color: #101217 !important;
+        font-weight: 500 !important;
+    }
+
+    .lii:after {
+        content: "";
+        position: absolute;
+        width: 0%;
+        height: 1px;
+        display: block;
+        transition: all 0.3s ease;
+        bottom: 26%;
+    }
+
+    .lii:hover::after {
+        margin-left: 5px;
+        width: 60px;
+        height: 2px;
+        background-color: #bb2424;
+    }
+
+    .dropdown:hover::after {
+        width: 150px;
+        margin-top: 10px;
+    }
+
+    button {
+        border: none;
+        color: white;
+        background-color: #cd1210;
+        width: 120px;
+        height: 35px;
+        border-radius: 20px;
+        font-size: 16px;
+    }
+
+    button:hover {
+        background-color: #be1411;
+    }
+}
