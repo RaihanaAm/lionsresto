@@ -136,3 +136,71 @@ nav {
         }
     }
 }
+
+// ****************** section about us
+.aboutUs{
+    .about{
+        margin: 25px 0;
+        text-align: center;
+        h6{
+            font-size: 15px;
+            color: #565658;
+        }
+        h5{
+            font-family: "amatic";
+            font-size: 40px;
+            color: #565658;
+            span{
+                color: #cd1210;
+            }
+        }
+    }
+    .about1{
+        display: flex;
+        justify-content: space-evenly;
+        .Book{
+            position: relative;
+            .table{
+                position: absolute;
+                top: 70%;
+                left: 15%;
+                background-color: white;
+                width: 490px;
+                padding: 15px;
+                text-align: center;
+                h6{
+                    font-size: 20px;
+                }
+                h5{
+                    font-size: 26px;
+                    color: #cd1210;
+                }
+            }
+            .image1{
+                // object-fit: cover;            
+                width: 680px;
+                height: 550px;
+            }
+        }
+        .image2{
+            width: 420px;
+            height: 265px;
+        }
+        .paraAbout{
+            font-size: 15px;
+            p{
+                color: #565658;
+
+            }
+            .iconabout{
+                display: flex;
+                i{
+                    margin:5px 5px 0 0;
+                    font-size: 12px;
+                }
+            }
+        }
+        
+    }
+
+}
