@@ -10823,4 +10823,29 @@ nav button:hover {
   color: #919191;
 }
 
+@media (min-width: 768px) and (max-width: 1000px) {
+  .home {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .home .image {
+    width: 420px;
+    height: 420px;
+  }
+  .home .home-text h1, .home .home-text .h1 {
+    margin-top: 10px;
+    text-align: center;
+  }
+  .home .home-text p {
+    text-align: center;
+    font-size: 18px;
+  }
+  .home .video {
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
 /*# sourceMappingURL=app.css.map */
