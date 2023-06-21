@@ -1,0 +1,36 @@
+// ************** mobile
+@media (min-width:375px) and (max-width:425px) {
+    .home {
+        display: flex;
+        flex-direction: column-reverse;
+
+        .image {
+            width: 320px;
+            height: 320px;
+        }
+
+        .home-text {
+            h1 {
+                margin-top: 15px;
+                text-align: center;
+                font-size: 45px;
+            }
+
+            p {
+                text-align: center;
+                font-size: 16px;
+            }
+        }
+
+        .video {
+            margin-top: 5px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            h6{
+                font-size: 16px;
+            }
+        }
+    }
+
+}
