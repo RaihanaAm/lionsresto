@@ -1,8 +1,19 @@
 @font-face {
     font-family: "poppins";
     src: url(../../../../public/fonts/Poppins-Regular.ttf);
-};
+}
 
+;
+
+@font-face {
+    font-family: "Amatic";
+    src: url(../../../../public/fonts/AmaticSC-Bold.ttf);
+}
+
+;
+
+
+// *********************** navbar
 nav {
     .logo {
         font-size: 32px;
@@ -16,7 +27,8 @@ nav {
     .lii {
         font-size: 18px;
         color: #101217 !important;
-        .active{
+
+        .active {
             font-size: 20px;
 
         }
@@ -61,5 +73,62 @@ nav {
 
     button:hover {
         background-color: #be1411;
+    }
+}
+
+// ***********************home
+.home {
+    // height: 100px;
+    display: flex;
+    background-color: #eeeeee;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 40px 0;
+    margin-top: 5px;
+
+    .home-text {
+        h1 {
+            font-family: "Amatic";
+            font-size: 52px;
+            color: #565658;
+        }
+
+        p {
+            font-size: 16px;
+            color:#919191;
+
+        }
+    }
+
+    .image {
+        width: 420px;
+        height: 420px;
+    }
+
+    .video {
+
+        display: flex;
+        align-items: center;
+
+        i {
+            font-size: 24px;
+            margin-right: 10px;
+        }
+
+        button {
+            border: none;
+            color: white;
+            background-color: #cd1210;
+            width: 120px;
+            height: 35px;
+            border-radius: 20px;
+            font-size: 16px;
+            margin-right: 15px;
+            box-shadow:  #cd131043 0px 7px 29px 0px;
+        }
+        h6{
+            font-size: 18px;
+            color:#919191;
+        }
     }
 }

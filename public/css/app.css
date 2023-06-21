@@ -10724,6 +10724,10 @@ textarea.form-control-lg {
   font-family: "poppins";
   src: url(../../../../public/fonts/Poppins-Regular.ttf);
 }
+@font-face {
+  font-family: "Amatic";
+  src: url(../../../../public/fonts/AmaticSC-Bold.ttf);
+}
 nav .logo {
   font-size: 32px;
   font-weight: 500;
@@ -10772,6 +10776,51 @@ nav button {
 }
 nav button:hover {
   background-color: #be1411;
+}
+
+.home {
+  display: flex;
+  background-color: #eeeeee;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 40px 0;
+  margin-top: 5px;
+}
+.home .home-text h1, .home .home-text .h1 {
+  font-family: "Amatic";
+  font-size: 52px;
+  color: #565658;
+}
+.home .home-text p {
+  font-size: 16px;
+  color: #919191;
+}
+.home .image {
+  width: 420px;
+  height: 420px;
+}
+.home .video {
+  display: flex;
+  align-items: center;
+}
+.home .video i {
+  font-size: 24px;
+  margin-right: 10px;
+}
+.home .video button {
+  border: none;
+  color: white;
+  background-color: #cd1210;
+  width: 120px;
+  height: 35px;
+  border-radius: 20px;
+  font-size: 16px;
+  margin-right: 15px;
+  box-shadow: rgba(205, 19, 16, 0.262745098) 0px 7px 29px 0px;
+}
+.home .video h6, .home .video .h6 {
+  font-size: 18px;
+  color: #919191;
 }
 
 /*# sourceMappingURL=app.css.map */
