@@ -714,5 +714,60 @@ nav {
                 }
             }
         }
+        .formContact {
+            box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            width: 1220px;
+            height: 400px;
+
+            form {
+                // margin-left: 10px;
+
+                input {
+                    border: 1px solid #eeeeee;
+                    width: 580px;
+                    margin-left: 15px;
+                    height: 50px;
+                    
+                }
+                .subject{
+                    width: 1179px;
+                    margin-top: 10px;
+                }
+            }
+
+            ::placeholder {
+                color: #919191;
+                font-size: 14px;
+                padding-left: 10px;
+            }
+
+            textarea {
+                width: 1179px;
+                height: 130px;
+                border: 1px solid #eeeeee;
+
+                margin: 10px;
+            }
+
+            button {
+                margin-top: 20px;
+                border: none;
+                color: white;
+                background-color: #cd1210;
+                width: 180px;
+                height: 40px;
+                border-radius: 20px;
+                font-size: 14px;
+            }
+
+            button:hover {
+                background-color: #be1411;
+            }
+
+        }
     }
 }

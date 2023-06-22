@@ -11279,6 +11279,49 @@ nav button:hover {
   font-size: 14px;
   margin: 6px 0;
 }
+.contactUs .ContactCont .formContact {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 1220px;
+  height: 400px;
+}
+.contactUs .ContactCont .formContact form input {
+  border: 1px solid #eeeeee;
+  width: 580px;
+  margin-left: 15px;
+  height: 50px;
+}
+.contactUs .ContactCont .formContact form .subject {
+  width: 1179px;
+  margin-top: 10px;
+}
+.contactUs .ContactCont .formContact ::placeholder {
+  color: #919191;
+  font-size: 14px;
+  padding-left: 10px;
+}
+.contactUs .ContactCont .formContact textarea {
+  width: 1179px;
+  height: 130px;
+  border: 1px solid #eeeeee;
+  margin: 10px;
+}
+.contactUs .ContactCont .formContact button {
+  margin-top: 20px;
+  border: none;
+  color: white;
+  background-color: #cd1210;
+  width: 180px;
+  height: 40px;
+  border-radius: 20px;
+  font-size: 14px;
+}
+.contactUs .ContactCont .formContact button:hover {
+  background-color: #be1411;
+}
 
 @media (min-width: 768px) and (max-width: 1024px) {
   .home {
@@ -11527,6 +11570,49 @@ nav button:hover {
   .contactUs .ContactCont .information .info p {
     font-size: 12px;
     margin: 6px 0;
+  }
+  .contactUs .ContactCont .formContact {
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 1220px;
+    height: 400px;
+  }
+  .contactUs .ContactCont .formContact form input {
+    border: 1px solid #eeeeee;
+    width: 580px;
+    margin-left: 15px;
+    height: 50px;
+  }
+  .contactUs .ContactCont .formContact form .subject {
+    width: 1179px;
+    margin-top: 10px;
+  }
+  .contactUs .ContactCont .formContact ::placeholder {
+    color: #919191;
+    font-size: 14px;
+    padding-left: 10px;
+  }
+  .contactUs .ContactCont .formContact textarea {
+    width: 1179px;
+    height: 130px;
+    border: 1px solid #eeeeee;
+    margin: 10px;
+  }
+  .contactUs .ContactCont .formContact button {
+    margin-top: 20px;
+    border: none;
+    color: white;
+    background-color: #cd1210;
+    width: 180px;
+    height: 40px;
+    border-radius: 20px;
+    font-size: 14px;
+  }
+  .contactUs .ContactCont .formContact button:hover {
+    background-color: #be1411;
   }
 }
 @media (min-width: 375px) and (max-width: 425px) {
