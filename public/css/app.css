@@ -10976,14 +10976,12 @@ nav button:hover {
 .numbers {
   position: relative;
 }
-
-.imagee {
+.numbers .imagee {
   background-image: url(../../../../public/images/stats-bg.jpg);
   filter: brightness(0.3);
   height: 220px;
 }
-
-.number {
+.numbers .number {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -10991,24 +10989,24 @@ nav button:hover {
   top: 30%;
   left: 8%;
 }
-.number .up,
-.number .down {
+.numbers .number .up,
+.numbers .number .down {
   display: flex;
   align-items: center;
 }
-.number .up .numero,
-.number .down .numero {
+.numbers .number .up .numero,
+.numbers .number .down .numero {
   color: #ffffff;
   width: 290px;
   text-align: center;
 }
-.number .up .numero h1, .number .up .numero .h1,
-.number .down .numero h1,
-.number .down .numero .h1 {
+.numbers .number .up .numero h1, .numbers .number .up .numero .h1,
+.numbers .number .down .numero h1,
+.numbers .number .down .numero .h1 {
   font-size: 55px;
 }
-.number .up .numero p,
-.number .down .numero p {
+.numbers .number .up .numero p,
+.numbers .number .down .numero p {
   font-size: 14px;
   color: #dfdfdf;
 }
@@ -11117,6 +11115,33 @@ nav button:hover {
   .lionResto .corporis:hover {
     width: 690px;
     margin-bottom: 0px;
+  }
+  .numbers .imagee {
+    height: 390px;
+    background-size: cover;
+  }
+  .numbers .number {
+    top: 25%;
+    left: 9%;
+  }
+  .numbers .number .up,
+  .numbers .number .down {
+    flex-direction: column;
+  }
+  .numbers .number .up .numero,
+  .numbers .number .down .numero {
+    width: 290px;
+    margin-bottom: 30px;
+  }
+  .numbers .number .up .numero h1, .numbers .number .up .numero .h1,
+  .numbers .number .down .numero h1,
+  .numbers .number .down .numero .h1 {
+    font-size: 50px;
+  }
+  .numbers .number .up .numero p,
+  .numbers .number .down .numero p {
+    font-size: 14px;
+    color: #dfdfdf;
   }
 }
 @media (min-width: 375px) and (max-width: 425px) {
@@ -11235,6 +11260,33 @@ nav button:hover {
   .lionResto .corporis:hover {
     width: 360px;
     margin-bottom: 0px;
+  }
+  .numbers .imagee {
+    height: 390px;
+    background-size: cover;
+  }
+  .numbers .number {
+    top: 25%;
+    left: 9%;
+  }
+  .numbers .number .up,
+  .numbers .number .down {
+    flex-direction: column;
+  }
+  .numbers .number .up .numero,
+  .numbers .number .down .numero {
+    width: 290px;
+    margin-bottom: 30px;
+  }
+  .numbers .number .up .numero h1, .numbers .number .up .numero .h1,
+  .numbers .number .down .numero h1,
+  .numbers .number .down .numero .h1 {
+    font-size: 50px;
+  }
+  .numbers .number .up .numero p,
+  .numbers .number .down .numero p {
+    font-size: 14px;
+    color: #dfdfdf;
   }
 }
 

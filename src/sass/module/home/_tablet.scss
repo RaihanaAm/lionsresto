@@ -126,6 +126,7 @@
             height: 180px;
             display: flex;
             margin-top: 10px;
+
             h1 {
                 width: 580px;
                 margin-top: 15px;
@@ -142,13 +143,50 @@
 
 
         }
-        .corporis:hover{
-            width:690px;
-            margin-bottom:0px;
+
+        .corporis:hover {
+            width: 690px;
+            margin-bottom: 0px;
         }
 
     }
 
+    // **numbers
+    .numbers {
+
+
+        .imagee {
+            height: 390px;
+            background-size: cover;
+        }
+
+        .number {
+            top: 25%;
+            left: 9%;
+
+            .up,
+            .down {
+                flex-direction: column;
+
+
+                .numero {
+                    width: 290px;
+                    margin-bottom: 30px;
+
+                    h1 {
+                        font-size: 50px;
+                    }
+
+                    p {
+                        font-size: 14px;
+                        color: #dfdfdf;
+
+                    }
+                }
+            }
+
+        }
+    }
 
 
 

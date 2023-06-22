@@ -332,12 +332,12 @@ nav {
 
 
 }
+// *********** numbers
 .numbers{
     position: relative;
 
-}
-
-.imagee {
+    
+    .imagee {
     background-image: url(../../../../public/images/stats-bg.jpg);
     filter: brightness(0.3);
     height: 220px;
@@ -350,21 +350,21 @@ nav {
     position: absolute;
     top: 30%;
     left: 8%;
-
+    
     .up,
     .down {
         display: flex;
         align-items: center;
-
+        
         .numero {
             color: #ffffff;
             width: 290px;
             text-align: center;
-
+            
             h1 {
                 font-size: 55px;
             }
-
+            
             p {
                 font-size: 14px;
                 color: #dfdfdf;
@@ -372,5 +372,6 @@ nav {
             }
         }
     }
-
+    
+}
 }
