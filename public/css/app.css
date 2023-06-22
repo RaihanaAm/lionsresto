@@ -10973,6 +10973,46 @@ nav button:hover {
   margin-bottom: 10px;
 }
 
+.numbers {
+  position: relative;
+}
+
+.imagee {
+  background-image: url(../../../../public/images/stats-bg.jpg);
+  filter: brightness(0.3);
+  height: 220px;
+}
+
+.number {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  position: absolute;
+  top: 30%;
+  left: 8%;
+}
+.number .up,
+.number .down {
+  display: flex;
+  align-items: center;
+}
+.number .up .numero,
+.number .down .numero {
+  color: #ffffff;
+  width: 290px;
+  text-align: center;
+}
+.number .up .numero h1, .number .up .numero .h1,
+.number .down .numero h1,
+.number .down .numero .h1 {
+  font-size: 55px;
+}
+.number .up .numero p,
+.number .down .numero p {
+  font-size: 14px;
+  color: #dfdfdf;
+}
+
 @media (min-width: 768px) and (max-width: 1024px) {
   .home {
     display: flex;
