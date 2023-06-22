@@ -555,6 +555,7 @@ nav {
 }
 
 // ** book a table
+
 .BookAtable {
     .Booktitle {
         padding: 60px 0 40px;
@@ -606,17 +607,20 @@ nav {
                     border: none;
                 }
             }
-            ::placeholder{
+
+            ::placeholder {
                 color: #919191;
                 font-size: 14px;
                 padding-left: 10px;
             }
-            textarea{
+
+            textarea {
                 width: 710px;
                 height: 130px;
                 border: none;
                 margin: 10px;
             }
+
             button {
                 margin-top: 20px;
                 border: none;
@@ -627,11 +631,88 @@ nav {
                 border-radius: 20px;
                 font-size: 14px;
             }
-        
+
             button:hover {
                 background-color: #be1411;
             }
 
+        }
+    }
+}
+
+// *** contact us
+.contactUs {
+    .Contactitle {
+        padding: 60px 0 40px;
+        text-align: center;
+
+        h6 {
+            font-size: 18px;
+            color: #565658;
+        }
+
+        h5 {
+            color: #424242;
+            font-size: 48px;
+            font-family: "amatic-reg";
+
+            span {
+                color: #cd1210;
+            }
+        }
+    }
+
+    .ContactCont {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        iframe {
+            width: 1210px;
+            height: 330px;
+        }
+
+        .information {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+
+            .info {
+                width: 600px;
+                margin: 10px;
+                padding:30px 20px;
+                background-color: #eeeeee;
+                color: #565658;
+                display: flex;
+                align-items: center;
+
+                .icon {
+                background-color: #cd1210;
+                width: 50px;
+                height: 50px;
+                border-radius: 50px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin-right: 20px;
+                    i {
+                        font-size: 16px;
+                        color: white;
+                    }
+                }
+                h1{
+                    font-size: 20px;
+                    font-weight: bold;
+                    margin: 0;
+
+                }
+                p{
+                    font-size: 14px;
+                    margin: 6px 0;
+                }
+            }
         }
     }
 }

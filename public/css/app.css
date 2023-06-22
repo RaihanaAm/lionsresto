@@ -11215,6 +11215,71 @@ nav button:hover {
   background-color: #be1411;
 }
 
+.contactUs .Contactitle {
+  padding: 60px 0 40px;
+  text-align: center;
+}
+.contactUs .Contactitle h6, .contactUs .Contactitle .h6 {
+  font-size: 18px;
+  color: #565658;
+}
+.contactUs .Contactitle h5, .contactUs .Contactitle .h5 {
+  color: #424242;
+  font-size: 48px;
+  font-family: "amatic-reg";
+}
+.contactUs .Contactitle h5 span, .contactUs .Contactitle .h5 span {
+  color: #cd1210;
+}
+.contactUs .ContactCont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.contactUs .ContactCont iframe {
+  width: 1210px;
+  height: 330px;
+}
+.contactUs .ContactCont .information {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.contactUs .ContactCont .information .info {
+  width: 600px;
+  margin: 10px;
+  padding: 30px 20px;
+  background-color: #eeeeee;
+  color: #565658;
+  display: flex;
+  align-items: center;
+}
+.contactUs .ContactCont .information .info .icon {
+  background-color: #cd1210;
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 20px;
+}
+.contactUs .ContactCont .information .info .icon i {
+  font-size: 16px;
+  color: white;
+}
+.contactUs .ContactCont .information .info h1, .contactUs .ContactCont .information .info .h1 {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0;
+}
+.contactUs .ContactCont .information .info p {
+  font-size: 14px;
+  margin: 6px 0;
+}
+
 @media (min-width: 768px) and (max-width: 1024px) {
   .home {
     display: flex;
@@ -11435,6 +11500,34 @@ nav button:hover {
     width: 585px;
     height: 130px;
   }
+  .contactUs .ContactCont iframe {
+    width: 600px;
+    height: 330px;
+  }
+  .contactUs .ContactCont .information .info {
+    width: 290px;
+    margin: 10px;
+    padding: 10px 15px;
+  }
+  .contactUs .ContactCont .information .info .icon {
+    width: 52px;
+    height: 38px;
+    border-radius: 50px;
+    margin-right: 15px;
+  }
+  .contactUs .ContactCont .information .info .icon i {
+    font-size: 14px;
+    color: white;
+  }
+  .contactUs .ContactCont .information .info h1, .contactUs .ContactCont .information .info .h1 {
+    font-size: 14px;
+    font-weight: bold;
+    margin: 0;
+  }
+  .contactUs .ContactCont .information .info p {
+    font-size: 12px;
+    margin: 6px 0;
+  }
 }
 @media (min-width: 375px) and (max-width: 425px) {
   .home {
@@ -11648,18 +11741,18 @@ nav button:hover {
     flex-direction: column;
   }
   .BookAtable .reservation img {
-    width: 380px;
+    width: 360px;
     height: 450px;
     object-fit: cover;
   }
   .BookAtable .reservation .form {
     flex-direction: column;
-    width: 380px;
+    width: 360px;
     height: auto;
     padding: 50px 0;
   }
   .BookAtable .reservation .form form {
-    margin-left: 40px;
+    margin-left: 32px;
   }
   .BookAtable .reservation .form form input {
     width: 280px;
@@ -11667,6 +11760,34 @@ nav button:hover {
   .BookAtable .reservation .form textarea {
     width: 280px;
     height: 130px;
+  }
+  .contactUs .ContactCont iframe {
+    width: 370px;
+    height: 330px;
+  }
+  .contactUs .ContactCont .information .info {
+    width: 370px;
+    margin: 10px 0;
+    padding: 10px 15px;
+  }
+  .contactUs .ContactCont .information .info .icon {
+    width: 42px;
+    height: 42px;
+    border-radius: 50px;
+    margin-right: 15px;
+  }
+  .contactUs .ContactCont .information .info .icon i {
+    font-size: 14px;
+    color: white;
+  }
+  .contactUs .ContactCont .information .info h1, .contactUs .ContactCont .information .info .h1 {
+    font-size: 14px;
+    font-weight: bold;
+    margin: 0;
+  }
+  .contactUs .ContactCont .information .info p {
+    font-size: 12px;
+    margin: 6px 0;
   }
 }
 

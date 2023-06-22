@@ -313,6 +313,51 @@
     }
 }
 
+// *** contact us
+.contactUs {
+
+
+    .ContactCont {
+        iframe {
+            width: 600px;
+            height: 330px;
+        }
+
+        .information {
+
+
+            .info {
+                width: 290px;
+                margin: 10px;
+                padding:10px 15px;
+
+
+
+                .icon {
+                width: 52px;
+                height: 38px;
+                border-radius: 50px;
+                margin-right: 15px;
+                    i {
+                        font-size: 14px;
+                        color: white;
+                    }
+                }
+                h1{
+                    font-size: 14px;
+                    font-weight: bold;
+                    margin: 0;
+
+                }
+                p{
+                    font-size: 12px;
+                    margin: 6px 0;
+                }
+            }
+        }
+    }
+}
+
 
 
 
