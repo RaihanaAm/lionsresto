@@ -11197,11 +11197,11 @@ nav button:hover {
   }
   .aboutUs .about1 .Book .image1 {
     width: 360px;
-    height: 500px;
+    height: 480px;
   }
   .aboutUs .about1 .image2 {
     width: 350px;
-    height: 335px;
+    height: 305px;
   }
   .aboutUs .about1 .paraAbout {
     margin: 15px 23px;
@@ -11235,7 +11235,7 @@ nav button:hover {
     font-size: 12.5px;
   }
   .lionResto .why button {
-    margin-left: 100px;
+    margin-left: 95px;
     border-radius: 20px;
     font-size: 14px;
   }
@@ -11262,12 +11262,12 @@ nav button:hover {
     margin-bottom: 0px;
   }
   .numbers .imagee {
-    height: 390px;
+    height: 370px;
     background-size: cover;
   }
   .numbers .number {
-    top: 25%;
-    left: 9%;
+    top: 23%;
+    left: 17.5%;
   }
   .numbers .number .up,
   .numbers .number .down {
@@ -11275,17 +11275,17 @@ nav button:hover {
   }
   .numbers .number .up .numero,
   .numbers .number .down .numero {
-    width: 290px;
+    width: 130px;
     margin-bottom: 30px;
   }
   .numbers .number .up .numero h1, .numbers .number .up .numero .h1,
   .numbers .number .down .numero h1,
   .numbers .number .down .numero .h1 {
-    font-size: 50px;
+    font-size: 40px;
   }
   .numbers .number .up .numero p,
   .numbers .number .down .numero p {
-    font-size: 14px;
+    font-size: 12px;
     color: #dfdfdf;
   }
 }
