@@ -11577,17 +11577,18 @@ nav button:hover {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 1220px;
-    height: 400px;
+    width: 605px;
+    height: 450px;
   }
   .contactUs .ContactCont .formContact form input {
     border: 1px solid #eeeeee;
     width: 580px;
     margin-left: 15px;
+    margin-top: 10px;
     height: 50px;
   }
   .contactUs .ContactCont .formContact form .subject {
-    width: 1179px;
+    width: 580px;
     margin-top: 10px;
   }
   .contactUs .ContactCont .formContact ::placeholder {
@@ -11596,23 +11597,10 @@ nav button:hover {
     padding-left: 10px;
   }
   .contactUs .ContactCont .formContact textarea {
-    width: 1179px;
+    width: 580px;
     height: 130px;
     border: 1px solid #eeeeee;
     margin: 10px;
-  }
-  .contactUs .ContactCont .formContact button {
-    margin-top: 20px;
-    border: none;
-    color: white;
-    background-color: #cd1210;
-    width: 180px;
-    height: 40px;
-    border-radius: 20px;
-    font-size: 14px;
-  }
-  .contactUs .ContactCont .formContact button:hover {
-    background-color: #be1411;
   }
 }
 @media (min-width: 375px) and (max-width: 425px) {
