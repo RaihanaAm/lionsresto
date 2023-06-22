@@ -69,18 +69,18 @@
 
                 .image1 {
                     width: 360px;
-                    height: 550px;
+                    height: 500px;
                 }
             }
 
             .image2 {
                 width: 350px;
-                height: 355px;
+                height: 335px;
             }
 
             .paraAbout {
                 margin: 15px 23px ;
-                font-size: 14px;
+                font-size: 13px;
                 .iconabout {
                     display: flex;
                     i {
@@ -99,6 +99,78 @@
 
     }
 // ***********************
+.lionResto {
+    flex-direction: column;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+
+    .why {
+        width: 360px;
+
+        h1 {
+            font-size: 22px;
+        }
+
+        p {
+            margin-top: 18px;
+            font-size: 12.5px;
+        }
+
+        button {
+
+            margin-left: 100px;
+            border-radius: 20px;
+            font-size: 14px;
+        }
+
+    }
+
+    .corporis {
+        width: 360px;
+        height: 180px;
+        display: flex;
+        margin-top: 10px;
+        h1 {
+            width: 280px;
+            margin-top: 15px;
+            font-size: 16px;
+        }
+
+        p {
+            font-size: 11.5px;
+            width: 280px;
+        }
+
+        .icon {
+            margin-top: 10px;
+        }
+
+
+    }
+    .corporis:hover{
+        width:360px;
+        margin-bottom:0px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 }

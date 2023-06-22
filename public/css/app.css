@@ -11132,15 +11132,15 @@ nav button:hover {
   }
   .aboutUs .about1 .Book .image1 {
     width: 360px;
-    height: 550px;
+    height: 500px;
   }
   .aboutUs .about1 .image2 {
     width: 350px;
-    height: 355px;
+    height: 335px;
   }
   .aboutUs .about1 .paraAbout {
     margin: 15px 23px;
-    font-size: 14px;
+    font-size: 13px;
   }
   .aboutUs .about1 .paraAbout .iconabout {
     display: flex;
@@ -11153,6 +11153,48 @@ nav button:hover {
     display: flex;
     flex-direction: column;
     align-items: center;
+  }
+  .lionResto {
+    flex-direction: column;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .lionResto .why {
+    width: 360px;
+  }
+  .lionResto .why h1, .lionResto .why .h1 {
+    font-size: 22px;
+  }
+  .lionResto .why p {
+    margin-top: 18px;
+    font-size: 12.5px;
+  }
+  .lionResto .why button {
+    margin-left: 100px;
+    border-radius: 20px;
+    font-size: 14px;
+  }
+  .lionResto .corporis {
+    width: 360px;
+    height: 180px;
+    display: flex;
+    margin-top: 10px;
+  }
+  .lionResto .corporis h1, .lionResto .corporis .h1 {
+    width: 280px;
+    margin-top: 15px;
+    font-size: 16px;
+  }
+  .lionResto .corporis p {
+    font-size: 11.5px;
+    width: 280px;
+  }
+  .lionResto .corporis .icon {
+    margin-top: 10px;
+  }
+  .lionResto .corporis:hover {
+    width: 360px;
+    margin-bottom: 0px;
   }
 }
 
