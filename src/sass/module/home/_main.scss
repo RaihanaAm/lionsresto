@@ -16,6 +16,9 @@
 }
 
 ;
+body{
+    font-family: "poppins";
+}
 
 
 // *********************** navbar
@@ -201,7 +204,7 @@ nav {
 
         .image2 {
             width: 420px;
-            height: 265px;
+            height: 267px;
         }
 
         .paraAbout {
@@ -231,31 +234,34 @@ nav {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    padding-top: 50px;
-    padding-bottom: 50px;
-
+    // padding-top: 50px;
+    // padding-bottom: 50px;
+    padding: 50px 80px;
     background-color: #eeeeee;
+
 
     .why {
         background-color: #cd1210;
-        width: 400px;
+        width: 380px;
         // text-align: start;
-        padding: 20px;
+        padding: 30px 20px;
         color: white;
+        border-radius: 5px;
         h1{
             font-size: 32px;
         }
         p{
             margin-top: 18px;
-            font-size: 14.5px;
+            font-size: 13.5px;
+            // font-weight: lighter;
         }
         button {
             border: none;
             color: white;
             background-color: #d1423f;
-            width: 120px;
+            width: 130px;
             height: 35px;
-            margin-left: 110px;
+            margin-left: 100px;
             border-radius: 20px;
             font-size: 16px;
         }
@@ -267,27 +273,54 @@ nav {
 
     .corporis {
         background-color: #ffffff;
-        width: 250px;
+        width: 220px;
+        border-radius: 8px;
         height: 280px;
-        padding: 20px;
-
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        
+        
+        
         h1{
-            font-size: 22px;
+            font-size: 18px;
+            width: 180px;
+            margin-top: 15px;
+            color: #424242;
+
         }
         p{
-            margin-top: 18px;
-            font-size: 12.5px;
+            color: #565658;
+            margin-top: 10px;
+            font-size: 13.5px;
+            width: 180px;
         }
         .icon{
             width: 50px;
             height: 50px;
             border-radius: 50%;
             margin-bottom: 10px;
-            background-color: #cd13108e;
+            background-color:#fae7e7;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            i{
+                font-size: 24px;
+                text-align: center;
+                color: #cd1210;
+
+            }
             
         }
 
 
+    }
+    .corporis:hover{
+        width: 230px;
+        margin-bottom: 10px;
     }
 
 

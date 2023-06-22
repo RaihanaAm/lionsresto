@@ -10732,6 +10732,10 @@ textarea.form-control-lg {
   font-family: "Amatic-reg";
   src: url(../../../../public/fonts/AmaticSC-Regular.ttf);
 }
+body {
+  font-family: "poppins";
+}
+
 nav .logo {
   font-size: 32px;
   font-weight: 500;
@@ -10875,7 +10879,7 @@ nav button:hover {
 }
 .aboutUs .about1 .image2 {
   width: 420px;
-  height: 265px;
+  height: 267px;
 }
 .aboutUs .about1 .paraAbout {
   font-size: 15px;
@@ -10895,30 +10899,30 @@ nav button:hover {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding: 50px 80px;
   background-color: #eeeeee;
 }
 .lionResto .why {
   background-color: #cd1210;
-  width: 400px;
-  padding: 20px;
+  width: 380px;
+  padding: 30px 20px;
   color: white;
+  border-radius: 5px;
 }
 .lionResto .why h1, .lionResto .why .h1 {
   font-size: 32px;
 }
 .lionResto .why p {
   margin-top: 18px;
-  font-size: 14.5px;
+  font-size: 13.5px;
 }
 .lionResto .why button {
   border: none;
   color: white;
   background-color: #d1423f;
-  width: 120px;
+  width: 130px;
   height: 35px;
-  margin-left: 110px;
+  margin-left: 100px;
   border-radius: 20px;
   font-size: 16px;
 }
@@ -10927,23 +10931,46 @@ nav button:hover {
 }
 .lionResto .corporis {
   background-color: #ffffff;
-  width: 250px;
+  width: 220px;
+  border-radius: 8px;
   height: 280px;
-  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
 .lionResto .corporis h1, .lionResto .corporis .h1 {
-  font-size: 22px;
+  font-size: 18px;
+  width: 180px;
+  margin-top: 15px;
+  color: #424242;
 }
 .lionResto .corporis p {
-  margin-top: 18px;
-  font-size: 12.5px;
+  color: #565658;
+  margin-top: 10px;
+  font-size: 13.5px;
+  width: 180px;
 }
 .lionResto .corporis .icon {
   width: 50px;
   height: 50px;
   border-radius: 50%;
   margin-bottom: 10px;
-  background-color: rgba(205, 19, 16, 0.5568627451);
+  background-color: #fae7e7;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.lionResto .corporis .icon i {
+  font-size: 24px;
+  text-align: center;
+  color: #cd1210;
+}
+.lionResto .corporis:hover {
+  width: 230px;
+  margin-bottom: 10px;
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
