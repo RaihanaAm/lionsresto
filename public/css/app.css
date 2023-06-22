@@ -10882,7 +10882,7 @@ nav button:hover {
   height: 550px;
 }
 .aboutUs .about1 .image2 {
-  width: 420px;
+  width: 500px;
   height: 267px;
 }
 .aboutUs .about1 .paraAbout {
@@ -11144,6 +11144,74 @@ nav button:hover {
   font-size: 11.5px;
   color: #919191;
   font-family: "poppins-italic";
+}
+
+.BookAtable .Booktitle {
+  padding: 60px 0 40px;
+  text-align: center;
+}
+.BookAtable .Booktitle h6, .BookAtable .Booktitle .h6 {
+  font-size: 18px;
+  color: #565658;
+}
+.BookAtable .Booktitle h5, .BookAtable .Booktitle .h5 {
+  color: #424242;
+  font-size: 48px;
+  font-family: "amatic-reg";
+}
+.BookAtable .Booktitle h5 span, .BookAtable .Booktitle .h5 span {
+  color: #cd1210;
+}
+.BookAtable .reservation {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+.BookAtable .reservation img {
+  width: 350px;
+  height: 450px;
+}
+.BookAtable .reservation .form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #eeeeee;
+  width: 800px;
+  height: 450px;
+}
+.BookAtable .reservation .form form {
+  margin-left: 38px;
+}
+.BookAtable .reservation .form form input {
+  width: 220px;
+  margin: 10px;
+  height: 50px;
+  border: none;
+}
+.BookAtable .reservation .form ::placeholder {
+  color: #919191;
+  font-size: 14px;
+  padding-left: 10px;
+}
+.BookAtable .reservation .form textarea {
+  width: 710px;
+  height: 130px;
+  border: none;
+}
+.BookAtable .reservation .form button {
+  margin-top: 20px;
+  border: none;
+  color: white;
+  background-color: #cd1210;
+  width: 120px;
+  height: 35px;
+  border-radius: 20px;
+  font-size: 14px;
+}
+.BookAtable .reservation .form button:hover {
+  background-color: #be1411;
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
