@@ -387,6 +387,29 @@
     }
 }
 
+    // *** footer
+    .footer {
+        padding-bottom: 20px;
+
+        .footerContenu {
+            .adrees {
+                width: 300px;
+                padding: 40px;
+                h1 {
+                    font-size: 18px;
+                }
+            }
+        }
+
+        hr {
+            width: 340px;
+
+            margin-left: 35px;
+        }
+
+
+    }
+
 
 
 
