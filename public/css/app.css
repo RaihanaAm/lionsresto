@@ -11425,6 +11425,67 @@ nav button:hover {
     font-size: 12px;
     color: #dfdfdf;
   }
+  .menu .Our {
+    padding: 60px 0 40px;
+    text-align: center;
+  }
+  .menu .Our h5, .menu .Our .h5 {
+    font-size: 18px;
+    color: #565658;
+  }
+  .menu .Our h1, .menu .Our .h1 {
+    color: #424242;
+    font-size: 38px;
+  }
+  .menu .Our h1 span, .menu .Our .h1 span {
+    color: #cd1210;
+  }
+  .menu .tabs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .menu .tabs .texttabs {
+    border-bottom: 2px solid #cd1210;
+    margin-right: 15px;
+  }
+  .menu .tabs .texttabs h2, .menu .tabs .texttabs .h2 {
+    font-size: 16px;
+    color: #565658;
+  }
+  .menu .menuHiddin .titleStarters {
+    margin: 66px 0 0;
+  }
+  .menu .menuHiddin .titleStarters h6, .menu .menuHiddin .titleStarters .h6 {
+    font-size: 14px;
+  }
+  .menu .menuHiddin .titleStarters h4, .menu .menuHiddin .titleStarters .h4 {
+    font-size: 30px;
+    font-weight: bold;
+  }
+  .menu .menuHiddin .line1 {
+    flex-direction: column;
+    margin-top: 0px;
+  }
+  .menu .menuHiddin .food {
+    margin-top: 80px;
+    flex-direction: column;
+  }
+  .menu .menuHiddin .food img {
+    width: 340px;
+    height: 340px;
+  }
+  .menu .menuHiddin .food h1, .menu .menuHiddin .food .h1 {
+    margin-top: 16px;
+    font-size: 28px;
+  }
+  .menu .menuHiddin .food p {
+    font-size: 18px;
+    color: #919191;
+  }
+  .menu .menuHiddin .food h5, .menu .menuHiddin .food .h5 {
+    font-size: 20px;
+  }
 }
 
 /*# sourceMappingURL=app.css.map */
