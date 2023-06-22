@@ -11030,7 +11030,7 @@ nav button:hover {
   }
   .aboutUs .about1 .paraAbout {
     margin: 15px 23px;
-    font-size: 19px;
+    font-size: 16px;
   }
   .aboutUs .about1 .paraAbout .iconabout {
     display: flex;
@@ -11038,6 +11038,45 @@ nav button:hover {
   .aboutUs .about1 .paraAbout .iconabout i {
     margin: 5px 5px 0 0;
     font-size: 14px;
+  }
+  .lionResto {
+    flex-direction: column;
+  }
+  .lionResto .why {
+    width: 690px;
+  }
+  .lionResto .why h1, .lionResto .why .h1 {
+    font-size: 32px;
+  }
+  .lionResto .why p {
+    margin-top: 18px;
+    font-size: 13.5px;
+  }
+  .lionResto .why button {
+    margin-left: 250px;
+    border-radius: 20px;
+    font-size: 16px;
+  }
+  .lionResto .corporis {
+    width: 690px;
+    height: 180px;
+    display: flex;
+    margin-top: 10px;
+  }
+  .lionResto .corporis h1, .lionResto .corporis .h1 {
+    width: 580px;
+    margin-top: 15px;
+  }
+  .lionResto .corporis p {
+    font-size: 13.5px;
+    width: 580px;
+  }
+  .lionResto .corporis .icon {
+    margin-top: 10px;
+  }
+  .lionResto .corporis:hover {
+    width: 690px;
+    margin-bottom: 0px;
   }
 }
 @media (min-width: 375px) and (max-width: 425px) {

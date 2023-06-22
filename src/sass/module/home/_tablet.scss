@@ -32,7 +32,7 @@
         }
     }
 
-//******************************************** about Us
+    //******************************************** about Us
     .aboutUs {
         .about {
             h6 {
@@ -79,8 +79,9 @@
             }
 
             .paraAbout {
-                margin: 15px 23px ;
-                font-size: 19px;
+                margin: 15px 23px;
+                font-size: 16px;
+
                 .iconabout {
                     display: flex;
 
@@ -94,7 +95,59 @@
         }
 
     }
+
     // ***********************
+    .lionResto {
+        flex-direction: column;
+
+
+        .why {
+            width: 690px;
+
+            h1 {
+                font-size: 32px;
+            }
+
+            p {
+                margin-top: 18px;
+                font-size: 13.5px;
+            }
+
+            button {
+                margin-left: 250px;
+                border-radius: 20px;
+                font-size: 16px;
+            }
+
+        }
+
+        .corporis {
+            width: 690px;
+            height: 180px;
+            display: flex;
+            margin-top: 10px;
+            h1 {
+                width: 580px;
+                margin-top: 15px;
+            }
+
+            p {
+                font-size: 13.5px;
+                width: 580px;
+            }
+
+            .icon {
+                margin-top: 10px;
+            }
+
+
+        }
+        .corporis:hover{
+            width:690px;
+            margin-bottom:0px;
+        }
+
+    }
 
 
 
