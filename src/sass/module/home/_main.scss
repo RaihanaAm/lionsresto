@@ -4,11 +4,17 @@
 }
 
 ;
+@font-face {
+    font-family: "poppins-italic";
+    src: url(../../../../public/fonts/Poppins-Italic.ttf);
+}
+
+;
 
 @font-face {
     font-family: "Amatic";
     src: url(../../../../public/fonts/AmaticSC-Bold.ttf);
-}
+};
 
 @font-face {
     font-family: "Amatic-reg";
@@ -471,6 +477,67 @@ nav {
                 font-size: 18px;
                 font-weight: bold;
 
+            }
+        }
+    }
+}
+
+
+// ** chefs
+.chefs{
+    background-color: #eeeeee;
+    margin-top: 80px;
+
+    .chefstitle{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: #565658;
+        
+        h6{
+            margin-top: 45px ;
+            font-size: 18px;
+        }
+        h5{
+            font-size: 40px;
+            font-family: "amatic-reg";
+            span{
+                color: #cd1210;
+            }
+        }
+    }
+    .chefcards{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        .card{
+            width: 350px;
+            margin: 25px 0 45px;
+            text-align: center;
+
+            .img1{
+                width: 349px;
+            }
+            .shape{
+                margin-top: -77px;
+            }
+            h1{
+                font-size: 24px;
+                padding: 5px 25px 0  0;
+                margin: 0;
+            }
+            h6{
+                color: #919191;
+                font-size: 12px;
+                padding: 3px 0 15px;
+
+            }
+            p{
+                padding: 0px 15px 15px;
+                font-size: 11.5px;
+                color:#919191;
+                font-family: "poppins-italic";
             }
         }
     }
