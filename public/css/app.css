@@ -11323,6 +11323,62 @@ nav button:hover {
   background-color: #be1411;
 }
 
+.footer {
+  background-color: #101217;
+  margin: 0;
+  color: #cccccc;
+  padding-bottom: 20px;
+}
+.footer .footerContenu {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.footer .footerContenu .adrees {
+  width: 300px;
+  padding: 40px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.footer .footerContenu .adrees h1, .footer .footerContenu .adrees .h1 {
+  font-size: 18px;
+}
+.footer .footerContenu .adrees p {
+  font-size: 11px;
+  margin: 0;
+}
+.footer .footerContenu .adrees p span {
+  font-weight: bold;
+}
+.footer .footerContenu .adrees i {
+  font-size: 16px;
+  margin-right: 18px;
+}
+.footer .footerContenu .adrees .icon {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.footer .footerContenu .adrees .icon i {
+  border: 1px solid #cccccc;
+  border-radius: 50px;
+  padding: 10px;
+  font-size: 14px;
+}
+.footer hr {
+  width: 1200px;
+  display: flex;
+  margin-left: 80px;
+}
+.footer .copyWrite h5, .footer .copyWrite .h5 {
+  text-align: center;
+  font-size: 14px;
+  color: #cccccc;
+}
+.footer .copyWrite h5 span, .footer .copyWrite .h5 span {
+  font-weight: bold;
+}
+
 @media (min-width: 768px) and (max-width: 1024px) {
   .home {
     display: flex;
