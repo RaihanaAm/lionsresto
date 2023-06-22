@@ -292,6 +292,38 @@
                 flex-wrap: wrap;
             }
         }
+    // ** book a table
+.BookAtable {
+    .reservation {
+        flex-direction: column;
+        img {
+            width: 380px;
+            height: 450px;
+            object-fit: cover;
+        }
+
+        .form {
+            flex-direction: column;
+            width: 380px;
+            height: auto;
+            padding: 50px 0;
+
+            form {
+                margin-left: 40px;
+
+                input {
+                    width: 280px;
+                }
+            }
+            textarea{
+                width: 280px;
+                height: 130px;
+            }
+       
+
+        }
+    }
+}    
 
 
 

@@ -279,11 +279,9 @@
         flex-wrap: wrap;
     }
 }
-// **** book atable
+
 // ** book a table
 .BookAtable {
-
-
     .reservation {
         flex-direction: column;
         img {
@@ -293,11 +291,7 @@
         }
 
         .form {
-            display: flex;
             flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            background-color: #eeeeee;
             width: 700px;
             height: auto;
             padding: 50px 0;
@@ -307,36 +301,13 @@
 
                 input {
                     width: 280px;
-                    margin: 10px;
-                    height: 50px;
-                    border: none;
                 }
             }
-            ::placeholder{
-                color: #919191;
-                font-size: 14px;
-                padding-left: 10px;
-            }
             textarea{
-                margin: 10px;
                 width: 585px;
                 height: 130px;
-                border: none;
             }
-            button {
-                margin-top: 20px;
-                border: none;
-                color: white;
-                background-color: #cd1210;
-                width: 120px;
-                height: 35px;
-                border-radius: 20px;
-                font-size: 14px;
-            }
-        
-            button:hover {
-                background-color: #be1411;
-            }
+       
 
         }
     }

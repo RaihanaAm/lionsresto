@@ -11199,6 +11199,7 @@ nav button:hover {
   width: 710px;
   height: 130px;
   border: none;
+  margin: 10px;
 }
 .BookAtable .reservation .form button {
   margin-top: 20px;
@@ -11419,11 +11420,7 @@ nav button:hover {
     object-fit: cover;
   }
   .BookAtable .reservation .form {
-    display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background-color: #eeeeee;
     width: 700px;
     height: auto;
     padding: 50px 0;
@@ -11433,33 +11430,10 @@ nav button:hover {
   }
   .BookAtable .reservation .form form input {
     width: 280px;
-    margin: 10px;
-    height: 50px;
-    border: none;
-  }
-  .BookAtable .reservation .form ::placeholder {
-    color: #919191;
-    font-size: 14px;
-    padding-left: 10px;
   }
   .BookAtable .reservation .form textarea {
-    margin: 10px;
     width: 585px;
     height: 130px;
-    border: none;
-  }
-  .BookAtable .reservation .form button {
-    margin-top: 20px;
-    border: none;
-    color: white;
-    background-color: #cd1210;
-    width: 120px;
-    height: 35px;
-    border-radius: 20px;
-    font-size: 14px;
-  }
-  .BookAtable .reservation .form button:hover {
-    background-color: #be1411;
   }
 }
 @media (min-width: 375px) and (max-width: 425px) {
@@ -11669,6 +11643,30 @@ nav button:hover {
   }
   .chefs .chefcards {
     flex-wrap: wrap;
+  }
+  .BookAtable .reservation {
+    flex-direction: column;
+  }
+  .BookAtable .reservation img {
+    width: 380px;
+    height: 450px;
+    object-fit: cover;
+  }
+  .BookAtable .reservation .form {
+    flex-direction: column;
+    width: 380px;
+    height: auto;
+    padding: 50px 0;
+  }
+  .BookAtable .reservation .form form {
+    margin-left: 40px;
+  }
+  .BookAtable .reservation .form form input {
+    width: 280px;
+  }
+  .BookAtable .reservation .form textarea {
+    width: 280px;
+    height: 130px;
   }
 }
 
