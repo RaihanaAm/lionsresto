@@ -11368,7 +11368,7 @@ nav button:hover {
 .footer hr {
   width: 1200px;
   display: flex;
-  margin-left: 80px;
+  margin: 10px auto 20px;
 }
 .footer .copyWrite h5, .footer .copyWrite .h5 {
   text-align: center;
@@ -11655,7 +11655,7 @@ nav button:hover {
   }
   .footer hr {
     width: 700px;
-    margin-left: 30px;
+    margin: 10px auto 20px;
   }
 }
 @media (min-width: 375px) and (max-width: 425px) {
@@ -11946,7 +11946,7 @@ nav button:hover {
   }
   .footer hr {
     width: 340px;
-    margin-left: 35px;
+    margin: 10px auto 20px;
   }
 }
 
