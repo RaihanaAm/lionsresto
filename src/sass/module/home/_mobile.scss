@@ -365,6 +365,25 @@
                 }
             }
         }
+        .formContact {
+            width: 370px;
+            height: 450px;
+            form {
+                input {
+                    width: 300px;
+                    margin-left: 35px;
+                    margin-top: 10px;
+                    
+                }
+                .subject{
+                    width: 300px;
+                    margin-top: 10px;
+                }
+            }
+            textarea {
+                width: 300px;
+            }
+        }
     }
 }
 

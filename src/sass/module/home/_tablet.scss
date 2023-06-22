@@ -356,23 +356,13 @@
             }
         }
         .formContact {
-            box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
             width: 605px;
             height: 450px;
-
             form {
-                // margin-left: 10px;
-
                 input {
-                    border: 1px solid #eeeeee;
                     width: 580px;
                     margin-left: 15px;
                     margin-top: 10px;
-                    height: 50px;
                     
                 }
                 .subject{
@@ -380,23 +370,9 @@
                     margin-top: 10px;
                 }
             }
-
-            ::placeholder {
-                color: #919191;
-                font-size: 14px;
-                padding-left: 10px;
-            }
-
             textarea {
                 width: 580px;
-                height: 130px;
-                border: 1px solid #eeeeee;
-
-                margin: 10px;
             }
-
-        
-
         }
     }
 }

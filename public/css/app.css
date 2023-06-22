@@ -11572,35 +11572,20 @@ nav button:hover {
     margin: 6px 0;
   }
   .contactUs .ContactCont .formContact {
-    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
     width: 605px;
     height: 450px;
   }
   .contactUs .ContactCont .formContact form input {
-    border: 1px solid #eeeeee;
     width: 580px;
     margin-left: 15px;
     margin-top: 10px;
-    height: 50px;
   }
   .contactUs .ContactCont .formContact form .subject {
     width: 580px;
     margin-top: 10px;
   }
-  .contactUs .ContactCont .formContact ::placeholder {
-    color: #919191;
-    font-size: 14px;
-    padding-left: 10px;
-  }
   .contactUs .ContactCont .formContact textarea {
     width: 580px;
-    height: 130px;
-    border: 1px solid #eeeeee;
-    margin: 10px;
   }
 }
 @media (min-width: 375px) and (max-width: 425px) {
@@ -11862,6 +11847,22 @@ nav button:hover {
   .contactUs .ContactCont .information .info p {
     font-size: 12px;
     margin: 6px 0;
+  }
+  .contactUs .ContactCont .formContact {
+    width: 370px;
+    height: 450px;
+  }
+  .contactUs .ContactCont .formContact form input {
+    width: 300px;
+    margin-left: 35px;
+    margin-top: 10px;
+  }
+  .contactUs .ContactCont .formContact form .subject {
+    width: 300px;
+    margin-top: 10px;
+  }
+  .contactUs .ContactCont .formContact textarea {
+    width: 300px;
   }
 }
 
