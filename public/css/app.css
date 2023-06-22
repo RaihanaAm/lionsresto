@@ -11339,6 +11339,9 @@ nav button:hover {
   .menu .menuHiddin .food h5, .menu .menuHiddin .food .h5 {
     font-size: 20px;
   }
+  .chefs .chefcards {
+    flex-wrap: wrap;
+  }
 }
 @media (min-width: 375px) and (max-width: 425px) {
   .home {
@@ -11544,6 +11547,9 @@ nav button:hover {
   }
   .menu .menuHiddin .food h5, .menu .menuHiddin .food .h5 {
     font-size: 20px;
+  }
+  .chefs .chefcards {
+    flex-wrap: wrap;
   }
 }
 
