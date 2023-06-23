@@ -10746,6 +10746,13 @@ body {
   border-bottom: 2px solid #cd1210;
 }
 
+.menuSelect {
+  border-bottom: 2px solid #cd1210;
+}
+.menuSelect h2, .menuSelect .h2 {
+  color: #000000 !important;
+}
+
 nav .logo {
   font-size: 32px;
   font-weight: 500;
@@ -11062,12 +11069,18 @@ nav button:hover {
   justify-content: center;
 }
 .menu .tabs .texttabs {
-  border-bottom: 2px solid #cd1210;
   margin-right: 15px;
 }
 .menu .tabs .texttabs h2, .menu .tabs .texttabs .h2 {
   font-size: 18px;
   color: #565658;
+}
+.menu .tabs .texttabs:hover {
+  border-bottom: 2px solid #cd1210;
+  cursor: pointer;
+}
+.menu .tabs .texttabs:hover h2, .menu .tabs .texttabs:hover .h2 {
+  color: #000000;
 }
 .menu .menuHiddin .titleStarters {
   display: flex;
