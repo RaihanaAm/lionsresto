@@ -10740,6 +10740,12 @@ body {
   font-family: "poppins";
 }
 
+.select {
+  color: #000000 !important;
+  font-weight: 500 !important;
+  border-bottom: 2px solid #cd1210;
+}
+
 nav .logo {
   font-size: 32px;
   font-weight: 500;
@@ -10754,8 +10760,8 @@ nav .lii {
 nav .lii .active {
   font-size: 20px;
 }
-nav .lii:hover {
-  color: #101217 !important;
+nav .lii:hover a {
+  color: #000000 !important;
   font-weight: 500 !important;
 }
 nav .lii:after {
@@ -10765,11 +10771,11 @@ nav .lii:after {
   height: 1px;
   display: block;
   transition: all 0.3s ease;
-  bottom: 26%;
+  bottom: 14%;
 }
 nav .lii:hover::after {
   margin-left: 5px;
-  width: 60px;
+  width: 65px;
   height: 2px;
   background-color: #bb2424;
 }

@@ -30,6 +30,11 @@ body {
     font-family: "poppins";
 }
 
+.select {
+    color: #000000 !important;
+    font-weight: 500 !important;
+    border-bottom: 2px solid #cd1210;
+}
 
 // *********************** navbar
 nav {
@@ -53,8 +58,10 @@ nav {
     }
 
     .lii:hover {
-        color: #101217 !important;
-        font-weight: 500 !important;
+        a{
+            color: #000000 !important;
+            font-weight: 500 !important;
+        }
     }
 
     .lii:after {
@@ -64,12 +71,12 @@ nav {
         height: 1px;
         display: block;
         transition: all 0.3s ease;
-        bottom: 26%;
+        bottom: 14%;
     }
 
     .lii:hover::after {
         margin-left: 5px;
-        width: 60px;
+        width: 65px;
         height: 2px;
         background-color: #bb2424;
     }
