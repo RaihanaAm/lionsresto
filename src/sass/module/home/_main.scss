@@ -30,6 +30,7 @@ body {
     font-family: "poppins";
 }
 
+// ********************* class js *********************************
 .select {
     color: #000000 !important;
     font-weight: 500 !important;
@@ -44,7 +45,7 @@ body {
     }
 
 }
-
+// ***************************************************************************************************
 // *********************** navbar
 nav {
     .logo {
@@ -314,7 +315,8 @@ nav {
         }
 
         button:hover {
-            background-color: #be1411;
+            background-color:white;
+            color: #cd1210;
         }
     }
 

@@ -1,5 +1,42 @@
 // ************** mobile
 @media (min-width:375px) and (max-width:425px) {
+
+    // **navbar
+    .navbaa {
+        padding: 15px 0;
+
+        .navvv {
+            display: flex;
+            flex-wrap: nowrap;
+
+            .logo {
+                font-size: 28px;
+            }
+
+            button {
+                margin-right: 15px;
+            }
+
+        }
+    }
+
+    //^^ hmburger
+    .hmburger {
+        position: fixed;
+        top: 0;
+        right: 0;
+        z-index: 2000;
+        padding: 22px 5px 22px 0;
+
+        // margin-left: 22px;
+        i {
+            font-size: 25px;
+            color: #565658;
+
+        }
+    }
+
+    // ** section 1
     .home {
         display: flex;
         flex-direction: column-reverse;
@@ -202,190 +239,199 @@
         }
     }
 
-        // ** menu
-        .menu {
-            .Our {
-                padding: 60px 0 40px;
-                text-align: center;
-    
-                h5 {
-                    font-size: 18px;
+    // ** menu
+    .menu {
+        .Our {
+            padding: 60px 0 40px;
+            text-align: center;
+
+            h5 {
+                font-size: 18px;
+                color: #565658;
+            }
+
+            h1 {
+                color: #424242;
+                font-size: 38px;
+
+                span {
+                    color: #cd1210;
+                }
+            }
+        }
+
+        .tabs {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            .texttabs {
+                margin-right: 15px;
+
+                h2 {
+                    font-size: 16px;
                     color: #565658;
                 }
-    
-                h1 {
-                    color: #424242;
-                    font-size: 38px;
-    
-                    span {
-                        color: #cd1210;
-                    }
-                }
-            }
-    
-            .tabs {
-                display: flex;
-                align-items: center;
-                justify-content: center;
-    
-                .texttabs {
-                    border-bottom: 2px solid #cd1210;
-                    margin-right: 15px;
-    
-                    h2 {
-                        font-size: 16px;
-                        color: #565658;
-                    }
-                }
-            }
-    
-    
-            .menuHiddin {
-                .titleStarters {
-                    margin: 66px 0 0;
-    
-                    h6 {
-                        font-size: 14px;
-                    }
-    
-                    h4 {
-                        font-size: 30px;
-                        font-weight: bold;
-                    }
-                }
-    
-                .line1 {
-                    flex-direction: column;
-                    margin-top: 0px;
-                }
-    
-                .food {
-                    margin-top: 80px;
-                    flex-direction: column;
-    
-                    img {
-                        width: 340px;
-                        height: 340px;
-                    }
-    
-                    h1 {
-                        margin-top: 16px;
-                        font-size: 28px;
-                    }
-    
-                    p {
-                        font-size: 18px;
-                        color: #919191;
-                    }
-    
-                    h5 {
-                        font-size: 20px;
-    
-                    }
-                }
             }
         }
-    
-        // ** chefs
-        .chefs{
-            .chefcards{
-                flex-wrap: wrap;
-            }
-        }
-    // ** book a table
-.BookAtable {
-    .reservation {
-        flex-direction: column;
-        img {
-            width: 360px;
-            height: 450px;
-            object-fit: cover;
-        }
-
-        .form {
-            flex-direction: column;
-            width: 360px;
-            height: auto;
-            padding: 50px 0;
-
-            form {
-                margin-left: 32px;
-
-                input {
-                    width: 280px;
-                }
-            }
-            textarea{
-                width: 280px;
-                height: 130px;
-            }
-        }
-    }
-}    
-
-// *** contact us
-.contactUs {
 
 
-    .ContactCont {
-        iframe {
-            width: 370px;
-            height: 330px;
-        }
+        .menuHiddin {
+            .titleStarters {
+                margin: 66px 0 0;
 
-        .information {
-
-
-            .info {
-                width: 370px;
-                margin: 10px 0;
-                padding:10px 15px;
-
-
-
-                .icon {
-                width: 42px;
-                height: 42px;
-                border-radius: 50px;
-                margin-right: 15px;
-                    i {
-                        font-size: 14px;
-                        color: white;
-                    }
-                }
-                h1{
+                h6 {
                     font-size: 14px;
+                }
+
+                h4 {
+                    font-size: 30px;
                     font-weight: bold;
-                    margin: 0;
+                }
+            }
+
+            .line1 {
+                flex-direction: column;
+                margin-top: 0px;
+            }
+
+            .food {
+                margin-top: 80px;
+                flex-direction: column;
+
+                img {
+                    width: 340px;
+                    height: 340px;
+                }
+
+                h1 {
+                    margin-top: 16px;
+                    font-size: 28px;
+                }
+
+                p {
+                    font-size: 18px;
+                    color: #919191;
+                }
+
+                h5 {
+                    font-size: 20px;
 
                 }
-                p{
-                    font-size: 12px;
-                    margin: 6px 0;
-                }
-            }
-        }
-        .formContact {
-            width: 370px;
-            height: 450px;
-            form {
-                input {
-                    width: 300px;
-                    margin-left: 35px;
-                    margin-top: 10px;
-                    
-                }
-                .subject{
-                    width: 300px;
-                    margin-top: 10px;
-                }
-            }
-            textarea {
-                width: 300px;
             }
         }
     }
-}
+
+    // ** chefs
+    .chefs {
+        .chefcards {
+            flex-wrap: wrap;
+        }
+    }
+
+    // ** book a table
+    .BookAtable {
+        .reservation {
+            flex-direction: column;
+
+            img {
+                width: 360px;
+                height: 450px;
+                object-fit: cover;
+            }
+
+            .form {
+                flex-direction: column;
+                width: 360px;
+                height: auto;
+                padding: 50px 0;
+
+                form {
+                    margin-left: 32px;
+
+                    input {
+                        width: 280px;
+                    }
+                }
+
+                textarea {
+                    width: 280px;
+                    height: 130px;
+                }
+            }
+        }
+    }
+
+    // *** contact us
+    .contactUs {
+
+
+        .ContactCont {
+            iframe {
+                width: 370px;
+                height: 330px;
+            }
+
+            .information {
+
+
+                .info {
+                    width: 370px;
+                    margin: 10px 0;
+                    padding: 10px 15px;
+
+
+
+                    .icon {
+                        width: 42px;
+                        height: 42px;
+                        border-radius: 50px;
+                        margin-right: 15px;
+
+                        i {
+                            font-size: 14px;
+                            color: white;
+                        }
+                    }
+
+                    h1 {
+                        font-size: 14px;
+                        font-weight: bold;
+                        margin: 0;
+
+                    }
+
+                    p {
+                        font-size: 12px;
+                        margin: 6px 0;
+                    }
+                }
+            }
+
+            .formContact {
+                width: 370px;
+                height: 450px;
+
+                form {
+                    input {
+                        width: 300px;
+                        margin-left: 35px;
+                        margin-top: 10px;
+
+                    }
+
+                    .subject {
+                        width: 300px;
+                        margin-top: 10px;
+                    }
+                }
+
+                textarea {
+                    width: 300px;
+                }
+            }
+        }
+    }
 
     // *** footer
     .footer {
@@ -395,6 +441,7 @@
             .adrees {
                 width: 300px;
                 padding: 40px;
+
                 h1 {
                     font-size: 18px;
                 }
@@ -403,7 +450,7 @@
 
         hr {
             width: 340px;
-            margin:10px  auto 20px;
+            margin: 10px auto 20px;
         }
 
 

@@ -1,6 +1,37 @@
 // ***********tablet 
 
 @media (min-width:768px) and (max-width:1024px) {
+    // ** nav bar
+    .navbaa{
+        position: relative;
+        .navvv{
+            width: 700px !important;
+            .tablet{
+                display: none !important;
+            }
+            display: flex ;
+            .logo{
+                font-size: 32px;
+                
+            }
+            
+        }
+    }
+    //^^ hmburger
+    .hmburger{
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 2000;
+    padding: 19px 10px;
+    margin-left: 18px;
+    i{
+        font-size: 25px;
+        color: #565658;
+
+    }
+    }
+
 
     // **section 1
     .home {
@@ -215,7 +246,7 @@
             justify-content: center;
 
             .texttabs {
-                border-bottom: 2px solid #cd1210;
+                // border-bottom: 2px solid #cd1210;
                 margin-right: 15px;
 
                 h2 {

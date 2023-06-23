@@ -10960,7 +10960,8 @@ nav button:hover {
   font-size: 16px;
 }
 .lionResto .why button:hover {
-  background-color: #be1411;
+  background-color: white;
+  color: #cd1210;
 }
 .lionResto .corporis {
   background-color: #ffffff;
@@ -11415,6 +11416,31 @@ nav button:hover {
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
+  .navbaa {
+    position: relative;
+  }
+  .navbaa .navvv {
+    width: 700px !important;
+    display: flex;
+  }
+  .navbaa .navvv .tablet {
+    display: none !important;
+  }
+  .navbaa .navvv .logo {
+    font-size: 32px;
+  }
+  .hmburger {
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 2000;
+    padding: 19px 10px;
+    margin-left: 18px;
+  }
+  .hmburger i {
+    font-size: 25px;
+    color: #565658;
+  }
   .home {
     display: flex;
     flex-direction: column-reverse;
@@ -11567,7 +11593,6 @@ nav button:hover {
     justify-content: center;
   }
   .menu .tabs .texttabs {
-    border-bottom: 2px solid #cd1210;
     margin-right: 15px;
   }
   .menu .tabs .texttabs h2, .menu .tabs .texttabs .h2 {
@@ -11694,6 +11719,30 @@ nav button:hover {
   }
 }
 @media (min-width: 375px) and (max-width: 425px) {
+  .navbaa {
+    padding: 15px 0;
+  }
+  .navbaa .navvv {
+    display: flex;
+    flex-wrap: nowrap;
+  }
+  .navbaa .navvv .logo {
+    font-size: 28px;
+  }
+  .navbaa .navvv button {
+    margin-right: 15px;
+  }
+  .hmburger {
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 2000;
+    padding: 22px 5px 22px 0;
+  }
+  .hmburger i {
+    font-size: 25px;
+    color: #565658;
+  }
   .home {
     display: flex;
     flex-direction: column-reverse;
@@ -11858,7 +11907,6 @@ nav button:hover {
     justify-content: center;
   }
   .menu .tabs .texttabs {
-    border-bottom: 2px solid #cd1210;
     margin-right: 15px;
   }
   .menu .tabs .texttabs h2, .menu .tabs .texttabs .h2 {
