@@ -21,11 +21,15 @@
     }
 
     //^^ hmburger
+    .contex{
+        z-index: 1300;
+    }
+    
     .hmburger {
         position: fixed;
         top: 0;
         right: 0;
-        z-index: 2000;
+        z-index: 1100;
         padding: 22px 5px 22px 0;
 
         // margin-left: 22px;

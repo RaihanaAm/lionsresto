@@ -18,11 +18,14 @@
         }
     }
     //^^ hmburger
+    .contex{
+        z-index: 1200;
+    }
     .hmburger{
     position: fixed;
     top: 0;
     right: 0;
-    z-index: 2000;
+    z-index: 1100;
     padding: 19px 10px;
     margin-left: 18px;
     i{

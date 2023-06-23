@@ -11429,11 +11429,14 @@ nav button:hover {
   .navbaa .navvv .logo {
     font-size: 32px;
   }
+  .contex {
+    z-index: 1200;
+  }
   .hmburger {
     position: fixed;
     top: 0;
     right: 0;
-    z-index: 2000;
+    z-index: 1100;
     padding: 19px 10px;
     margin-left: 18px;
   }
@@ -11732,11 +11735,14 @@ nav button:hover {
   .navbaa .navvv button {
     margin-right: 15px;
   }
+  .contex {
+    z-index: 1300;
+  }
   .hmburger {
     position: fixed;
     top: 0;
     right: 0;
-    z-index: 2000;
+    z-index: 1100;
     padding: 22px 5px 22px 0;
   }
   .hmburger i {
