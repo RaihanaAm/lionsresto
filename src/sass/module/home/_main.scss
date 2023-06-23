@@ -101,6 +101,22 @@ nav {
     }
 }
 
+// *** arrow to top of page
+.arrow{
+    width: 50px;
+    height: 50px;
+    background-color: #cd1210;
+    border-radius: 50px;
+display: flex; align-items: center;
+justify-content: center;
+margin: 15px 25px;
+z-index: 1000;
+    i{
+        font-size: 24px;
+        color:white;
+    }
+}
+
 // ***********************home
 .home {
     // height: 100px;

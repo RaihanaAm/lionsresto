@@ -1,5 +1,5 @@
+// **********************************************scroll****************************************
 let itemNav = document.querySelectorAll(".lii")
-
 //^^  fonction delete hover
 const delet = () => {
     for (let index = 0; index < itemNav.length; index++) {
@@ -7,11 +7,10 @@ const delet = () => {
         it.firstElementChild.classList.remove("select");
     }
 }
-// **scroll
 window.onscroll = () => {
 
         let ids = scrollY
-        console.log(ids);
+        // console.log(ids);
         if (ids >=0 && ids<500 ) {
             delet()
             itemNav[0].firstElementChild.classList.add("select");
@@ -29,6 +28,8 @@ window.onscroll = () => {
             itemNav[7].firstElementChild.classList.add("select");
         } 
     }
+
+
 
 
 
