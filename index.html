@@ -3,13 +3,16 @@
 
 <head>
     <meta charset="UTF-8">
+    <!-- <meta http-equiv="Permissions-Policy" content="interest-cohort=()"> -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LionsResto</title>
     <link rel="stylesheet" href="./public/css/app.css">
 </head>
 
-<body>
+<body class="body">
+
+    
     <!-- ** section navbar-->
     <section class="  d-flex justify-content-around sticky-top bg-white ">
         <nav class=" navbaa navbar navbar-expand-lg bg-body-tertiary  ">
@@ -76,8 +79,6 @@
 
     </section>
     <!-- ^^ icon nav  -->
-    
-
     <nav class=" d-lg-none navbar   bg-body-tertiary ">
         <div class="container-fluid ">
             <div class="hmburger d-lg-none" type="" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar">
@@ -111,23 +112,13 @@
         </div>
     </nav>
 
-
-
-
-
-
-
-
-
-
-
-
     <!-- *** arrow -->
     <a href="#home">
         <div class=" arrow position-fixed bottom-0 end-0 ">
             <i class="fa-solid fa-arrow-up"></i>
         </div>
     </a>
+    
 
     <!-- ** home -->
     <section class="home" id="home">
@@ -137,10 +128,18 @@
                 <p> Lorem ipsum dolor sit amet consectetur adipisicing Lorem . <br> Lorem ipsum dolor sit amet
                     consectetur adip</p>
             </div>
-            <div class="video ">
+            <div class="video">
                 <button>Book Table</button>
                 <i class="fa-sharp fa-regular fa-circle-play" style="color: #bb2424 ;"></i>
                 <h6>Watch video</h6>
+            </div>
+            <div class="watch d-none"> 
+                <i class=" xmark fa-solid fa-xmark" style="color: #ffffff;"></i>
+                <i class="fa-solid fa-chevron-left" style="color: #ffffff;"></i>
+                <iframe class="d-none"  src="https://www.youtube.com/embed/yT2zUcp1Hu4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <iframe   src="https://www.youtube.com/embed/44q32PSx0Nc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <iframe class="d-none"  src="https://www.youtube.com/embed/cMVqndnIUDE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <i class="fa-solid fa-chevron-right" style="color: #ffffff;"></i>
             </div>
         </div>
         <div class="images">

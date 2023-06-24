@@ -10753,6 +10753,10 @@ body {
   color: #000000 !important;
 }
 
+.overflow {
+  overflow: hidden; /* Hide scrollbars */
+}
+
 nav .logo {
   font-size: 32px;
   font-weight: 500;
@@ -10865,6 +10869,47 @@ nav button:hover {
 .home .video h6, .home .video .h6 {
   font-size: 18px;
   color: #919191;
+}
+.home .video:hover {
+  cursor: pointer;
+}
+.home .video:hover h6, .home .video:hover .h6 {
+  color: rgba(205, 19, 16, 0.8431372549);
+}
+.home .watch {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.9019607843);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 2000;
+  overflow-y: hidden;
+}
+.home .watch iframe {
+  width: 560px;
+  height: 315px;
+}
+.home .watch .xmark {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 22px;
+}
+.home .watch i:hover {
+  cursor: pointer;
+}
+.home .watch .fa-chevron-right, .home .watch .fa-chevron-left {
+  font-size: 20px;
+  margin: 0 20px;
+}
+.home .watch .fa-chevron-right, .home .watch .fa-chevron-left:hover {
+  cursor: pointer;
+  color: #6e6e6e;
+  border-radius: 20px;
 }
 
 .aboutUs .about {
@@ -11466,6 +11511,13 @@ nav button:hover {
     align-items: center;
     justify-content: center;
   }
+  .home .watch iframe {
+    width: 360px;
+    height: 315px;
+  }
+  .home .watch .fa-chevron-right, .home .watch .fa-chevron-left {
+    margin: 0 20px;
+  }
   .aboutUs .about h6, .aboutUs .about .h6 {
     font-size: 15px;
   }
@@ -11774,6 +11826,13 @@ nav button:hover {
   }
   .home .video h6, .home .video .h6 {
     font-size: 16px;
+  }
+  .home .watch iframe {
+    width: 240px;
+    height: 295px;
+  }
+  .home .watch .fa-chevron-right, .home .watch .fa-chevron-left {
+    margin: 0 20px;
   }
   .aboutUs .about h6, .aboutUs .about .h6 {
     font-size: 15px;

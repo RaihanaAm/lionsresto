@@ -72,6 +72,16 @@
             h6 {
                 font-size: 16px;
             }
+            
+        }
+        .watch{
+            iframe{
+                width: 240px;
+                height: 295px;
+            }
+            .fa-chevron-right,.fa-chevron-left{
+                margin: 0 20px ;
+            } 
         }
     }
 
