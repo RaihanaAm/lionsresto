@@ -293,12 +293,15 @@ nav {
                 // object-fit: cover;            
                 width: 680px;
                 height: 550px;
+                object-fit: cover;
+
             }
         }
 
         .image2 {
             width: 500px;
             height: 267px;
+            object-fit: cover;
         }
 
         .paraAbout {
@@ -316,6 +319,37 @@ nav {
                     margin: 5px 5px 0 0;
                     font-size: 12px;
                 }
+            }
+        }
+        .vd{
+            position: relative;
+            .vdp{
+                width: 80px;
+                height: 80px;
+                background-color: #cd13108a;
+                border-radius: 50px;
+                position: absolute;
+                left: 50%;
+                top: 50%;
+                transform: translate(-50%,-50%);
+
+            
+
+                i{
+                    position: absolute;
+                left: 50%;
+                top: 50%;
+                    transform: translate(-50%,-50%);
+                    font-size: 50px;
+                    color: #cd1210;
+                    background-color: rgb(242, 242, 242);
+                    border-radius: 150px;
+                }
+            }
+            .vdp:hover{
+                background-color: #bb242496;
+                cursor: pointer;
+
             }
         }
 

@@ -79,10 +79,15 @@ let btnPlay = document.querySelector(".video");
 let bodu = document.querySelector(".body")
 let xmark = document.querySelector(".xmark");
 let link_youtube =watch.querySelectorAll("iframe");
-btnPlay.addEventListener("click", () => {
+let video_play2 =document.querySelector(".vdp");
+const play=()=>{
     bodu.classList.add("overflow");
-    watch.classList.remove("d-none")
-})
+    watch.classList.remove("d-none");
+}
+btnPlay.addEventListener("click", play);
+video_play2.addEventListener("click", play);
+
+
     // ^close btn
 xmark.addEventListener("click", () => {
     bodu.classList.remove("overflow");
@@ -92,10 +97,10 @@ xmark.addEventListener("click", () => {
 let left =document.querySelector(".fa-chevron-left");
 let right =document.querySelector(".fa-chevron-right");
 
-
-
-
 const nextt=()=>{
+
+
+
     for (let index = 0; index < link_youtube.length; index++) {
         let element = link_youtube[index];
         if (!element.classList.contains("d-none")) {
@@ -113,9 +118,9 @@ const nextt=()=>{
         }
     }
 }
-
-
 const previous=()=>{
+
+
     for (let index = 0; index < link_youtube.length; index++) {
         let element = link_youtube[index];
         if (!link_youtube[0].classList.contains("d-none")) {
@@ -136,7 +141,8 @@ const previous=()=>{
 
 left.addEventListener("click",previous)
 right.addEventListener("click",nextt)
-console.log(document.documentElement.scrollHeight);
+
+
 
 
 

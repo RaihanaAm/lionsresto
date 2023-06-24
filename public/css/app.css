@@ -10954,10 +10954,12 @@ nav button:hover {
 .aboutUs .about1 .Book .image1 {
   width: 680px;
   height: 550px;
+  object-fit: cover;
 }
 .aboutUs .about1 .image2 {
   width: 500px;
   height: 267px;
+  object-fit: cover;
 }
 .aboutUs .about1 .paraAbout {
   font-size: 15px;
@@ -10971,6 +10973,33 @@ nav button:hover {
 .aboutUs .about1 .paraAbout .iconabout i {
   margin: 5px 5px 0 0;
   font-size: 12px;
+}
+.aboutUs .about1 .vd {
+  position: relative;
+}
+.aboutUs .about1 .vd .vdp {
+  width: 80px;
+  height: 80px;
+  background-color: rgba(205, 19, 16, 0.5411764706);
+  border-radius: 50px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.aboutUs .about1 .vd .vdp i {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 50px;
+  color: #cd1210;
+  background-color: rgb(242, 242, 242);
+  border-radius: 150px;
+}
+.aboutUs .about1 .vd .vdp:hover {
+  background-color: rgba(187, 36, 36, 0.5882352941);
+  cursor: pointer;
 }
 
 .lionResto {
