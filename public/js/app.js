@@ -144,5 +144,9 @@ right.addEventListener("click",nextt)
 
 
 
-
+// ** carroussel
+// let content = document.getElementById('images');
+// let parents = content.parentNode;
+// console.log(parents);
+// // parents.insertBefore(content, parents.firstChild);
 

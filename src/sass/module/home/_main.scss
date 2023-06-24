@@ -37,18 +37,22 @@ body {
     font-weight: 500 !important;
     border-bottom: 2px solid #cd1210;
 }
-.menuSelect{
-    border-bottom: 2px solid #cd1210;
-    h2{
 
-        color: #000000 !important ;
+.menuSelect {
+    border-bottom: 2px solid #cd1210;
+
+    h2 {
+
+        color: #000000 !important;
         // font-weight: 600;
     }
 
 }
+
 // ** vd youtube
-.overflow{
-        overflow: hidden; /* Hide scrollbars */
+.overflow {
+    overflow: hidden;
+    /* Hide scrollbars */
 }
 
 // ***************************************************************************************************
@@ -197,13 +201,16 @@ nav {
             color: #919191;
         }
     }
-    .video:hover{
+
+    .video:hover {
         cursor: pointer;
-        h6{
+
+        h6 {
             color: #cd1310d7;
         }
     }
-    .watch{
+
+    .watch {
         width: 100%;
         height: 100%;
         background-color: #000000e6;
@@ -215,29 +222,36 @@ nav {
         left: 0;
         z-index: 2000;
         overflow-y: hidden;
-        iframe{
+
+        iframe {
             width: 560px;
             height: 315px;
         }
-        .xmark{
+
+        .xmark {
             position: absolute;
             top: 20px;
             right: 20px;
             font-size: 22px;
         }
-        i:hover{
+
+        i:hover {
             cursor: pointer;
         }
-        .fa-chevron-right,.fa-chevron-left{
+
+        .fa-chevron-right,
+        .fa-chevron-left {
             font-size: 20px;
-            margin: 0 20px ;
+            margin: 0 20px;
         }
-        .fa-chevron-right,.fa-chevron-left:hover{
+
+        .fa-chevron-right,
+        .fa-chevron-left:hover {
             cursor: pointer;
             color: #6e6e6e;
             border-radius: 20px;
         }
-        
+
     }
 }
 
@@ -321,9 +335,11 @@ nav {
                 }
             }
         }
-        .vd{
+
+        .vd {
             position: relative;
-            .vdp{
+
+            .vdp {
                 width: 80px;
                 height: 80px;
                 background-color: #cd13108a;
@@ -331,22 +347,23 @@ nav {
                 position: absolute;
                 left: 50%;
                 top: 50%;
-                transform: translate(-50%,-50%);
+                transform: translate(-50%, -50%);
 
-            
 
-                i{
+
+                i {
                     position: absolute;
-                left: 50%;
-                top: 50%;
-                    transform: translate(-50%,-50%);
+                    left: 50%;
+                    top: 50%;
+                    transform: translate(-50%, -50%);
                     font-size: 50px;
                     color: #cd1210;
                     background-color: rgb(242, 242, 242);
                     border-radius: 150px;
                 }
             }
-            .vdp:hover{
+
+            .vdp:hover {
                 background-color: #bb242496;
                 cursor: pointer;
 
@@ -397,7 +414,7 @@ nav {
         }
 
         button:hover {
-            background-color:white;
+            background-color: white;
             color: #cd1210;
         }
     }
@@ -544,14 +561,16 @@ nav {
                 color: #565658;
             }
         }
+
         .texttabs:hover {
             border-bottom: 2px solid #cd1210;
             cursor: pointer;
+
             h2 {
                 color: #000000;
             }
         }
-        
+
     }
 
 
@@ -612,6 +631,95 @@ nav {
     }
 }
 
+// ** events
+.events {
+    margin-top: 60px;
+
+    .event {
+        padding: 60px 0 40px;
+        text-align: center;
+
+        h5 {
+            font-size: 18px;
+            color: #565658;
+        }
+
+        h1 {
+            color: #424242;
+            font-size: 48px;
+            font-family: "amatic-reg";
+
+            span {
+                color: #cd1210;
+            }
+        }
+    }
+
+    .event_images {
+        display: flex;
+        align-items: center;
+        width: 100%;
+
+        .image_event {
+            position: relative;
+
+            img {
+                width: 100%;
+                height: 460px;
+                object-fit: cover;
+                filter: brightness(0.5);
+            }
+
+            .event_text {
+                position: absolute;
+                bottom: 0;
+                color: white;
+                padding: 10px 15px;
+
+                h2 {
+                    font-size: 20px;
+                    font-weight: bold;
+
+                }
+
+                h4 {
+                    width: 60px;
+                    font-size: 24px;
+                    font-weight: bold;
+                    border-bottom: 2px solid #cd1210;
+                }
+
+                p {
+                    font-size: 12px;
+                    width: 90%;
+                    font-weight: lighter;
+                    color: #dedede;
+                }
+            }
+        }
+
+    }
+
+    .points {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+
+        .point {
+            width: 10px;
+            height: 10px;
+            margin: 5px;
+            border-radius: 20px;
+            background-color: #bdbdbd;
+        }
+
+        .point:hover {
+            cursor: pointer;
+            background-color: #cd1210;
+        }
+    }
+}
 
 // ** chefs
 .chefs {
@@ -763,6 +871,81 @@ nav {
                 background-color: #be1411;
             }
 
+        }
+    }
+}
+
+// ** gallery
+.gallery {
+    background-color: #eeeeee;
+    padding-bottom: 100px;
+
+    .galleries {
+        padding: 40px 0 40px;
+        text-align: center;
+
+        h5 {
+            font-size: 18px;
+            color: #565658;
+        }
+
+        h1 {
+            color: #424242;
+            font-size: 48px;
+            font-family: "amatic-reg";
+
+            span {
+                color: #cd1210;
+            }
+        }
+    }
+
+    .gallery_images {
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        margin: auto;
+
+
+        .image {
+            img {
+                margin: 0 3px;
+                width: 170px;
+                height: 150px;
+                object-fit: cover;
+            }
+        }
+
+        .test {
+            border: 7px solid #cd1210;
+            margin-top: -20px;
+            outline: 3px solid rgb(255, 255, 255);
+            outline-offset: -10px;
+            img {
+                width: 210px;
+                height: 170px;
+                object-fit: cover;
+            }
+        }
+
+    }
+    .points_gallery{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+
+        .point_g {
+            width: 8px;
+            height: 8px;
+            margin: 3px;
+            border-radius: 20px;
+            background-color: #bdbdbd;
+        }
+
+        .point_g:hover {
+            cursor: pointer;
+            background-color: #cd1210;
         }
     }
 }
