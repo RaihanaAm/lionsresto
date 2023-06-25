@@ -11427,10 +11427,12 @@ nav button:hover {
   color: #cd1210;
 }
 .gallery .gallery_images {
-  width: 80%;
+  width: 68%;
   display: flex;
-  justify-content: center;
-  margin: auto;
+  overflow: hidden;
+  margin: 0 auto;
+  padding: 50px 0 30px;
+  scroll-behavior: smooth;
 }
 .gallery .gallery_images .image img {
   margin: 0 3px;
@@ -11451,16 +11453,18 @@ nav button:hover {
 }
 .gallery .points_gallery {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 20px;
+  margin-left: 620px;
+  text-align: center;
 }
 .gallery .points_gallery .point_g {
-  width: 8px;
-  height: 8px;
-  margin: 3px;
+  width: 10px;
+  height: 10px;
+  margin: 0 3px;
   border-radius: 20px;
   background-color: #bdbdbd;
+}
+.gallery .points_gallery .redc {
+  background-color: #cd1210;
 }
 .gallery .points_gallery .point_g:hover {
   cursor: pointer;
@@ -11902,6 +11906,34 @@ nav button:hover {
     width: 585px;
     height: 130px;
   }
+  .gallery .gallery_images {
+    width: 70%;
+    display: flex;
+    overflow: hidden;
+    margin: 0 auto;
+    padding: 50px 0 30px;
+    scroll-behavior: smooth;
+  }
+  .gallery .gallery_images .image img {
+    margin: 0 5px;
+    width: 170px;
+    height: 150px;
+    object-fit: cover;
+  }
+  .gallery .gallery_images .test {
+    border: 0px solid #cd1210;
+    margin-top: 0px;
+    outline: 0px solid rgb(255, 255, 255);
+    outline-offset: 0px;
+  }
+  .gallery .gallery_images .test img {
+    width: 170px;
+    height: 150px;
+    object-fit: cover;
+  }
+  .gallery .points_gallery {
+    margin-left: 330px;
+  }
   .contactUs .ContactCont iframe {
     width: 600px;
     height: 330px;
@@ -12200,6 +12232,20 @@ nav button:hover {
   .menu .menuHiddin .food h5, .menu .menuHiddin .food .h5 {
     font-size: 20px;
   }
+  .events .event h1, .events .event .h1 {
+    font-size: 30px;
+  }
+  .events .event_images {
+    margin: auto;
+    width: 90%;
+  }
+  .events .event_images .image_event img {
+    width: 450px;
+    height: 430px;
+  }
+  .events .event_images .image_event .event_text p {
+    width: 75%;
+  }
   .chefs .chefcards {
     flex-wrap: wrap;
   }
@@ -12226,6 +12272,34 @@ nav button:hover {
   .BookAtable .reservation .form textarea {
     width: 280px;
     height: 130px;
+  }
+  .gallery .gallery_images {
+    width: 100%;
+    display: flex;
+    overflow: hidden;
+    margin: 0 auto;
+    padding: 50px 0 30px;
+    scroll-behavior: smooth;
+  }
+  .gallery .gallery_images .image img {
+    margin: 0 0px;
+    width: 400px;
+    height: 150px;
+    object-fit: cover;
+  }
+  .gallery .gallery_images .test {
+    border: 0px solid #cd1210;
+    margin-top: 0px;
+    outline: 0px solid rgb(255, 255, 255);
+    outline-offset: 0px;
+  }
+  .gallery .gallery_images .test img {
+    width: 400px;
+    height: 150px;
+    object-fit: cover;
+  }
+  .gallery .points_gallery {
+    margin-left: 130px;
   }
   .contactUs .ContactCont iframe {
     width: 370px;

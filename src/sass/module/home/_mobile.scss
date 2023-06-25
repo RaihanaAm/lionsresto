@@ -340,8 +340,35 @@
     }
 
     // ** events
-  
-    
+    // **events
+    .events {
+        .event {
+            h1 {
+                font-size: 30px;
+            }
+        }
+
+        .event_images {
+            margin: auto;
+            width: 90%;
+            .image_event {
+
+                img {
+                    width: 450px;
+                    height: 430px;
+                }
+
+                .event_text {
+                
+
+                    p {
+                        width: 75%;
+                    }
+                }
+            }
+        }
+    }
+
     // ** chefs
     .chefs {
         .chefcards {
@@ -381,7 +408,43 @@
             }
         }
     }
-
+    // ** gallery
+    .gallery {
+        .gallery_images {
+            width:100%;
+            display: flex;
+            // align-items: center;
+            // justify-content: center;
+            overflow: hidden;
+            margin: 0 auto;
+            padding:  50px 0 30px;
+            scroll-behavior: smooth;
+            .image {
+                img {
+                    margin: 0 0px;
+                    width: 400px;
+                    height: 150px;
+                    object-fit: cover;
+                }
+            }
+    
+            .test {
+                border: 0px solid #cd1210;
+                margin-top: 0px;
+                outline: 0px solid rgb(255, 255, 255);
+                outline-offset: 0px;
+                img {
+                    width: 400px;
+                    height: 150px;
+                    object-fit: cover;
+                }
+            }
+    
+        }
+        .points_gallery{
+            margin-left: 130px;
+        }
+    }
     // *** contact us
     .contactUs {
 

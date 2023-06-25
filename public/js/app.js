@@ -182,6 +182,45 @@ points[1].addEventListener("click", drags.bind(null, 450))
 points[2].addEventListener("click", drags.bind(null, 900))
 
 
+
+//*** carroussel 2 */
+let carr2 =document.querySelector(".gallery_images");
+let pint_g=document.querySelectorAll(".point_g");
+let images =carr2.querySelectorAll(".image");
+
+const carrousel2 = (num) => {
+    carr2.scrollLeft = num
+}
+const redp = () => {
+    for (let i = 0; i < pint_g.length; i++) {
+        let element = pint_g[i];
+        element.classList.remove("redc")
+    }
+}
+const border =(num)=>{
+    for (let i = 0; i < images.length; i++) {
+        let element = images[i]; 
+        let fierst=element.firstElementChild.getAttribute("src");
+        if (fierst.includes(`${num}`)) {
+            element.classList.add("test");
+        }else{
+            element.classList.remove("test");
+        }
+    }
+}
+for (let i = 0; i < pint_g.length; i++) {
+    let element = pint_g[i];
+    element.addEventListener("click", () => {
+        redp();
+        element.classList.add("redc");
+        carrousel2((170)*i);
+        border(i+1);
+    })
+}
+
+
+
+
 // points[0].addEventListener("click",()=>{
 //     order(2,3)
 //     order(0,-1)
