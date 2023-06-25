@@ -315,6 +315,33 @@
             }
         }
     }
+    // **events
+    .events{
+
+        .event_images {
+            display: flex;
+            // flex-direction: row-reverse;
+            align-items: center;
+            // max-width: 1120px;
+            margin: auto;
+            width: 53%;
+            overflow: hidden;
+            scroll-behavior:smooth;
+            .image_event {
+                position: relative;
+    
+                img {
+                    width:450px;
+                    height: 430px;
+                    object-fit: cover;
+                    filter: brightness(0.5);
+                }
+    
+                
+            }
+    
+        }
+    }
 
     // ** chefs
     .chefs {

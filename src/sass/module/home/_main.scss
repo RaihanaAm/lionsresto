@@ -657,14 +657,17 @@ nav {
 
     .event_images {
         display: flex;
+        // flex-direction: row-reverse;
         align-items: center;
+        // max-width: 1120px;
         width: 100%;
-
+        overflow: hidden;
+        scroll-behavior:smooth;
         .image_event {
             position: relative;
 
             img {
-                width: 100%;
+                width: 450px;
                 height: 460px;
                 object-fit: cover;
                 filter: brightness(0.5);
@@ -705,6 +708,7 @@ nav {
         justify-content: center;
         align-items: center;
         margin-top: 20px;
+        
 
         .point {
             width: 10px;
@@ -712,6 +716,9 @@ nav {
             margin: 5px;
             border-radius: 20px;
             background-color: #bdbdbd;
+        }
+        .redp{
+            background-color: #cd1210;
         }
 
         .point:hover {

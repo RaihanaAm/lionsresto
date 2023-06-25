@@ -11227,12 +11227,14 @@ nav button:hover {
   display: flex;
   align-items: center;
   width: 100%;
+  overflow: hidden;
+  scroll-behavior: smooth;
 }
 .events .event_images .image_event {
   position: relative;
 }
 .events .event_images .image_event img {
-  width: 100%;
+  width: 450px;
   height: 460px;
   object-fit: cover;
   filter: brightness(0.5);
@@ -11271,6 +11273,9 @@ nav button:hover {
   margin: 5px;
   border-radius: 20px;
   background-color: #bdbdbd;
+}
+.events .points .redp {
+  background-color: #cd1210;
 }
 .events .points .point:hover {
   cursor: pointer;
@@ -11853,6 +11858,23 @@ nav button:hover {
   .menu .menuHiddin .food h5, .menu .menuHiddin .food .h5 {
     font-size: 20px;
   }
+  .events .event_images {
+    display: flex;
+    align-items: center;
+    margin: auto;
+    width: 53%;
+    overflow: hidden;
+    scroll-behavior: smooth;
+  }
+  .events .event_images .image_event {
+    position: relative;
+  }
+  .events .event_images .image_event img {
+    width: 450px;
+    height: 430px;
+    object-fit: cover;
+    filter: brightness(0.5);
+  }
   .chefs .chefcards {
     flex-wrap: wrap;
   }
@@ -11997,7 +12019,8 @@ nav button:hover {
     width: 240px;
     height: 295px;
   }
-  .home .watch .fa-chevron-right, .home .watch .fa-chevron-left {
+  .home .watch .fa-chevron-right,
+  .home .watch .fa-chevron-left {
     margin: 0 20px;
   }
   .aboutUs .about h6, .aboutUs .about .h6 {

@@ -21,10 +21,10 @@
     }
 
     //^^ hmburger
-    .contex{
+    .contex {
         z-index: 1300;
     }
-    
+
     .hmburger {
         position: fixed;
         top: 0;
@@ -72,16 +72,19 @@
             h6 {
                 font-size: 16px;
             }
-            
+
         }
-        .watch{
-            iframe{
+
+        .watch {
+            iframe {
                 width: 240px;
                 height: 295px;
             }
-            .fa-chevron-right,.fa-chevron-left{
-                margin: 0 20px ;
-            } 
+
+            .fa-chevron-right,
+            .fa-chevron-left {
+                margin: 0 20px;
+            }
         }
     }
 
@@ -336,6 +339,9 @@
         }
     }
 
+    // ** events
+  
+    
     // ** chefs
     .chefs {
         .chefcards {
